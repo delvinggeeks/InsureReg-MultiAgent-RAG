@@ -113,6 +113,24 @@ st.markdown("")
 
 from config.department_config import DEPARTMENT_METADATA
 
+# ─── Auto-Ingest Sample Docs on First Run ─────────────────────────
+if "docs_ingested_checked" not in st.session_state:
+    st.session_state.docs_ingested_checked = True
+    try:
+        from rag.vectorstore_manager import vectorstore_manager
+        from config.settings import DEPARTMENTS
+        total = sum(
+            vectorstore_manager.get_collection_stats(d)["document_count"]
+            for d in DEPARTMENTS
+        )
+        if total == 0:
+            with st.spinner("📦 First run detected — ingesting sample regulatory documents..."):
+                from rag.document_ingestion import ingestion_pipeline
+                ingestion_pipeline.ingest_sample_docs()
+            st.toast("✅ Sample documents ingested for all 6 departments!", icon="📦")
+    except Exception as e:
+        st.warning(f"⚠️ Could not auto-ingest sample docs: {e}")
+
 # Display departments in 2 columns of 3
 dept_items = list(DEPARTMENT_METADATA.items())
 

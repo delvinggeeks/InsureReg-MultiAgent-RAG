@@ -54,5 +54,19 @@
     "response_preview": "### Eligibility Criteria for Group Health Insurance\n\nWhile I do not have specific documents to reference for the eligibility criteria for group health insurance, I can provide a general overview based...",
     "sources_count": 0,
     "sources": []
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-04-11T11:23:09.822829",
+    "query": "How does no-claim bonus transfer work when buying a new car?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.9,
+      "reasoning": "The query specifically pertains to no-claim bonus rules related to motor insurance when purchasing a new car, which falls under the motor insurance department."
+    },
+    "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a reward provided by insurance companies for not making any claims during the policy period. When you buy a new car...",
+    "sources_count": 0,
+    "sources": []
   }
 ]

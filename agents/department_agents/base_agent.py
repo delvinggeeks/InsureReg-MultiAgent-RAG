@@ -37,17 +37,22 @@ class BaseDepartmentAgent:
         
         # Build the RAG prompt
         self.prompt = ChatPromptTemplate.from_messages([
-            ("system", self.system_prompt + "\n\n"
-             "CONTEXT FROM RETRIEVED DOCUMENTS:\n"
-             "─────────────────────────────────\n"
-             "{context}\n"
-             "─────────────────────────────────\n\n"
-             "IMPORTANT INSTRUCTIONS:\n"
-             "- Base your answer ONLY on the context provided above.\n"
-             "- If the context doesn't contain sufficient information, clearly state that.\n"
-             "- Always cite the source document name in your response.\n"
-             "- Format your response with clear headers and bullet points where appropriate.\n"
-             "- End with a disclaimer that this is for informational purposes only."),
+            ("system", self.system_prompt + """\n\n
+CONTEXT FROM RETRIEVED DOCUMENTS:
+─────────────────────────────────
+{context}
+─────────────────────────────────
+
+STRICT RESPONSE RULES — follow these exactly:
+1. Answer ONLY using the context provided above. Do NOT use any external knowledge.
+2. If the context is empty or says 'No relevant documents found':
+   → Respond: "I don't have information on this topic in the current knowledge base for {dept_name}. Please upload relevant documents or consult the appropriate regulatory authority."
+3. If the query is outside the scope of {dept_name}:
+   → Respond: "This query appears to be outside the scope of {dept_name}. Please direct it to the appropriate department."
+4. If partial information is available, answer what you can and clearly state what is missing.
+5. Always cite the source document name (e.g. 'According to [filename]...').
+6. Use clear headers and bullet points where appropriate.
+7. End every response with: \n\n---\n*⚠️ This response is for informational purposes only and does not constitute regulatory or compliance advice.*""".format(dept_name=self.name)),
             ("human", "{query}"),
         ])
         

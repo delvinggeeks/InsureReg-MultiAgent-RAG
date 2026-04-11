@@ -34,6 +34,26 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("")
 
+# ─── Document Ingestion Check ─────────────────────────────
+try:
+    from rag.retriever_factory import retriever_factory
+    from config.settings import DEPARTMENTS
+    total_chunks = sum(retriever_factory.get_collection_doc_count(d) for d in DEPARTMENTS)
+    if total_chunks == 0:
+        st.warning(
+            "⚠️ **No documents are indexed yet.** "
+            "The knowledge base is empty — answers will have no source context.\n\n"
+            "Click the button below to ingest the built-in sample regulatory documents."
+        )
+        if st.button("📦 Ingest Sample Documents Now", type="primary"):
+            from rag.document_ingestion import ingestion_pipeline
+            with st.spinner("Ingesting sample documents for all 6 departments..."):
+                ingestion_pipeline.ingest_sample_docs()
+            st.success("✅ Sample documents ingested! Refresh the page and start chatting.")
+            st.rerun()
+except Exception:
+    pass  # Don't block the chat UI if check fails
+
 # ─── Initialize State ─────────────────────────────────────
 if "messages" not in st.session_state:
     st.session_state.messages = []

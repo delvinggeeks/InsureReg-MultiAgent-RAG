@@ -37,7 +37,7 @@ EMBEDDING_DIMENSIONS = 1536
 CHUNK_SIZE = 1000          # Characters per chunk
 CHUNK_OVERLAP = 200        # Overlap between chunks
 RETRIEVAL_K = 5            # Number of chunks to retrieve
-SIMILARITY_THRESHOLD = 0.3 # Minimum similarity score
+SIMILARITY_THRESHOLD = 0.0  # Accept all top-k results (no score cutoff)
 
 # ─── ChromaDB Settings ─────────────────────────────────
 CHROMA_PERSIST_DIR = str(VECTORSTORE_DIR)
