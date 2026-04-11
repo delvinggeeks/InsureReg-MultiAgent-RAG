@@ -40,5 +40,19 @@
     "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a discount on the premium offered by insurers for not making any claims during the policy period. Here\u2019s how the NC...",
     "sources_count": 0,
     "sources": []
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-04-11T11:15:28.759267",
+    "query": "What are the eligibility criteria for group health insurance?",
+    "routing": {
+      "group": "specialty_insurance",
+      "department": "business_insurance",
+      "confidence": 0.9,
+      "reasoning": "The query pertains to group health insurance, which falls under the business and corporate insurance category."
+    },
+    "response_preview": "### Eligibility Criteria for Group Health Insurance\n\nWhile I do not have specific documents to reference for the eligibility criteria for group health insurance, I can provide a general overview based...",
+    "sources_count": 0,
+    "sources": []
   }
 ]
