@@ -82,8 +82,14 @@ class Orchestrator:
              "1. Analyze the query carefully for keywords and context\n"
              "2. Route to the most specific department that matches\n"
              "3. If the query spans multiple departments, choose the PRIMARY one\n"
-             "4. Set confidence based on how clearly the query maps to a department\n"
-             "5. Provide brief reasoning for your routing decision"),
+             "4. Provide brief reasoning for your routing decision\n\n"
+             "CONFIDENCE CALIBRATION — be precise, not generous:\n"
+             "  1.0  — Query uses exact domain terms (e.g. 'ULIP', 'NCB', 'TPA', 'Schengen visa')\n"
+             "  0.85 — Query clearly belongs to one dept but uses general language\n"
+             "  0.70 — Query could fit 2 departments; you picked the most likely one\n"
+             "  0.50 — Query is ambiguous or spans multiple departments equally\n"
+             "  0.30 — Query is vague or only loosely related to insurance\n"
+             "  Never default to 0.9. Vary confidence based on actual query clarity."),
             ("human", "{query}"),
         ])
         

@@ -68,5 +68,180 @@
     "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a reward provided by insurance companies for not making any claims during the policy period. When you buy a new car...",
     "sources_count": 0,
     "sources": []
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-04-11T12:14:36.802198",
+    "query": "How does no-claim bonus transfer work when buying a new car?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.9,
+      "reasoning": "The query specifically pertains to no-claim bonus rules related to motor insurance when purchasing a new car, which falls under the motor insurance department."
+    },
+    "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a discount on the Own Damage (OD) premium for claim-free years. When you buy a new car, you can transfer your NCB f...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.407
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.211
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.195
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.104
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.102
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-04-11T12:18:13.664795",
+    "query": "How does no-claim bonus transfer work when buying a new car?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.68,
+      "reasoning": "The query specifically pertains to no-claim bonus rules related to motor insurance when purchasing a new car, making it a clear fit for the motor insurance department."
+    },
+    "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a discount on the Own Damage (OD) premium for claim-free years. Here\u2019s how the transfer works when you buy a new ca...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.407
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.211
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.195
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.104
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.102
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-04-11T12:18:53.323389",
+    "query": "give me linkedList program",
+    "routing": {
+      "group": "specialty_insurance",
+      "department": "business_insurance",
+      "confidence": 0.09,
+      "reasoning": "The query is about programming, which is not directly related to any insurance department. However, since it may pertain to business applications or corporate insurance solutions, it is routed to business insurance as the most relevant department."
+    },
+    "response_preview": "This query appears to be outside the scope of Business & Corporate Insurance. Please direct it to the appropriate department. \n\n---\n*\u26a0\ufe0f This response is for informational purposes only and does not co...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": -0.212
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": -0.212
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": -0.228
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": -0.23
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": -0.244
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-04-11T12:19:30.501392",
+    "query": "give me top 5 reasons to buy motor insurance",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.7,
+      "reasoning": "The query specifically asks about motor insurance, which falls under the asset protection category, focusing on reasons to purchase car and two-wheeler policies."
+    },
+    "response_preview": "This query appears to be outside the scope of Motor Insurance. Please direct it to the appropriate department.\n\n---\n*\u26a0\ufe0f This response is for informational purposes only and does not constitute regulat...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.314
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.289
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.253
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.239
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.197
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-04-11T12:19:53.948930",
+    "query": "rules of motor insurance",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.75,
+      "reasoning": "The query specifically mentions 'motor insurance', which directly relates to the rules and regulations governing car and two-wheeler policies."
+    },
+    "response_preview": "### Rules of Motor Insurance\n\nMotor insurance in India is governed by the following key regulations and guidelines:\n\n#### 1. Types of Motor Insurance\n- **Third-Party Liability Insurance (Mandatory)**:...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.511
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.385
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.38
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.3
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.287
+      }
+    ]
   }
 ]

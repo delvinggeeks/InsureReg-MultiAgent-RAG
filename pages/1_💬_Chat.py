@@ -61,31 +61,36 @@ def render_static_trace(trace: dict):
     Render a compact orchestration summary card after the response is complete.
     Uses only native Streamlit — no raw HTML.
     """
-    dept_id    = trace.get("department", "")
-    group_id   = trace.get("group", "")
-    reasoning  = trace.get("reasoning", "")
-    confidence = trace.get("confidence", 0)
-    sources_n  = trace.get("sources_count", 0)
-    dept_meta  = DEPARTMENT_METADATA.get(dept_id, {"icon": "📄", "name": dept_id})
-    group_name = group_id.replace("_", " ").title()
-    dept_name  = f"{dept_meta.get('icon','📄')} {dept_meta.get('name', dept_id)}"
+    dept_id          = trace.get("department", "")
+    group_id         = trace.get("group", "")
+    reasoning        = trace.get("reasoning", "")
+    routing_conf     = trace.get("routing_confidence", trace.get("confidence", 0))
+    retrieval_conf   = trace.get("retrieval_confidence", routing_conf)
+    composite_conf   = trace.get("composite_confidence", routing_conf)
+    sources_n        = trace.get("sources_count", 0)
+    dept_meta        = DEPARTMENT_METADATA.get(dept_id, {"icon": "📄", "name": dept_id})
+    group_name       = group_id.replace("_", " ").title()
 
     with st.expander("⚡ Agent Orchestration Trace", expanded=False):
-        c1, c2, c3 = st.columns(3)
-        c1.metric("📂 Group",       group_name)
-        c2.metric("🏢 Department",  dept_meta.get("name", dept_id))
-        c3.metric("🎯 Confidence",  f"{confidence:.0%}")
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("📂 Group",            group_name)
+        c2.metric("🏢 Department",       dept_meta.get("name", dept_id))
+        c3.metric("🎯 Routing",          f"{routing_conf:.0%}")
+        c4.metric("📊 Overall",          f"{composite_conf:.0%}",
+                  delta=f"retrieval: {retrieval_conf:.0%}",
+                  delta_color="off")
 
         st.divider()
-
-        cols = st.columns([1, 3])
         rows = [
-            ("🎯 Orchestrator",  "Query analyzed & routed"),
-            ("📂 Group Supervisor", f"Dispatched to {group_name}"),
-            (f"{dept_meta.get('icon','📄')} Dept Agent", f"{dept_meta.get('name', dept_id)} agent invoked"),
-            ("🔍 RAG Pipeline",  f"{sources_n} chunk(s) retrieved from ChromaDB"),
-            ("✍️ GPT-4o-mini",   "Response generated"),
+            ("🎯 Orchestrator",       "Query analyzed & routed"),
+            ("📂 Group Supervisor",   f"Dispatched to {group_name}"),
+            (f"{dept_meta.get('icon','📄')} Dept Agent",
+                                      f"{dept_meta.get('name', dept_id)} agent invoked"),
+            ("🔍 RAG Pipeline",       f"{sources_n} chunk(s) retrieved from ChromaDB "
+                                      f"(avg relevance: {retrieval_conf:.0%})"),
+            ("✍️ GPT-4o-mini",        "Response generated"),
         ]
+        cols = st.columns([1, 3])
         for icon_label, value in rows:
             cols[0].markdown(f"✅ **{icon_label}**")
             cols[1].markdown(value)
@@ -153,9 +158,17 @@ def run_with_live_trace(query: str) -> dict:
         except Exception as e:
             response = f"⚠️ Error generating response: {str(e)}"
 
-        # Done
+        # Done — compute composite confidence from routing + retrieval scores
+        avg_score = (
+            sum(s.get("score", 0) for s in sources) / len(sources)
+            if sources else 0.0
+        )
+        # Composite = 60% routing clarity + 40% retrieval relevance
+        composite_conf = round(0.6 * routing.confidence + 0.4 * avg_score, 2)
+
         status.update(
-            label=f"✅ Answered by {dept_name} Agent  |  {len(sources)} sources  |  {routing.confidence:.0%} confidence",
+            label=(f"✅ Answered by {dept_name} Agent  |  {len(sources)} sources  |  "
+                   f"Routing: {routing.confidence:.0%}  |  Overall: {composite_conf:.0%}"),
             state="complete",
             expanded=False,
         )
@@ -166,7 +179,7 @@ def run_with_live_trace(query: str) -> dict:
             query=query,
             group=routing.group,
             department=routing.department,
-            confidence=routing.confidence,
+            confidence=composite_conf,
             response=response,
             sources=sources,
             routing_reasoning=routing.reasoning,
@@ -181,14 +194,16 @@ def run_with_live_trace(query: str) -> dict:
             "group":      routing.group,
             "department": routing.department,
             "reasoning":  routing.reasoning,
-            "confidence": routing.confidence,
+            "confidence": composite_conf,
         },
         "trace": {
-            "department":    routing.department,
-            "group":         routing.group,
-            "reasoning":     routing.reasoning,
-            "confidence":    routing.confidence,
-            "sources_count": len(sources),
+            "department":          routing.department,
+            "group":               routing.group,
+            "reasoning":           routing.reasoning,
+            "routing_confidence":  routing.confidence,
+            "retrieval_confidence": round(avg_score, 2),
+            "composite_confidence": composite_conf,
+            "sources_count":       len(sources),
         },
     }
 
