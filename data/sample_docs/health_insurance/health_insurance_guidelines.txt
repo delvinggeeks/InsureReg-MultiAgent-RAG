@@ -1,0 +1,164 @@
+HEALTH INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+============================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Company Reference: ICICI Lombard General Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: HEALTH INSURANCE PRODUCT TYPES
+-------------------------------------------
+
+1.1 Individual Mediclaim Policy
+Provides hospitalization coverage for the insured individual. Covers inpatient treatment
+expenses including room rent, doctor fees, surgery charges, and medicines.
+
+Key Parameters:
+- Minimum sum insured: INR 1,00,000
+- Maximum sum insured: Up to INR 1,00,00,000 (1 Crore)
+- Policy period: 1 year (renewable annually), 2-year, or 3-year options
+- Entry age: 91 days to 65 years (lifelong renewability after first policy)
+- No claim bonus: 5%-50% increase in sum insured for each claim-free year
+
+1.2 Family Floater Policy
+Single policy covering the entire family with a shared sum insured.
+Family definition: Self, spouse, dependent children (up to 25 years), and parents.
+- Advantage: Cost-effective compared to individual policies for each member
+- Risk: One large claim can exhaust the coverage for the entire family
+
+1.3 Critical Illness Policy
+Lump sum benefit paid on diagnosis of specified critical illnesses.
+Covered illnesses (as per IRDAI standardization):
+- Cancer of specified severity
+- Myocardial infarction (first heart attack)
+- Open chest CABG (Coronary Artery Bypass Graft)
+- Kidney failure requiring dialysis
+- Major organ transplant
+- Stroke resulting in permanent symptoms
+- Multiple sclerosis
+- And others as per policy terms
+
+1.4 Top-Up and Super Top-Up Policies
+- Top-Up: Activates when a single claim exceeds the deductible threshold
+- Super Top-Up: Activates when aggregate claims in a year exceed the deductible
+- Deductible range: INR 3,00,000 to INR 10,00,000 (common for corporate employees)
+
+CHAPTER 2: PRE-EXISTING DISEASE (PED) NORMS
+----------------------------------------------
+
+2.1 IRDAI Standardized Waiting Periods
+As per IRDAI Health Insurance Regulations 2024:
+
+- Pre-existing diseases: 36 months (3 years) waiting period from first policy inception
+  (Previously 48 months — reduced to 36 months as per latest IRDAI directive)
+- Specific diseases/procedures: 24 months waiting period
+  (e.g., cataract, hernia, joint replacement, benign prostatic hypertrophy, etc.)
+- Initial waiting period: 30 days from policy start (except accidents)
+  (No claims payable in first 30 days except for injuries from accidents)
+
+2.2 Pre-Existing Disease Declaration
+- Proposer must declare all known medical conditions in the proposal form
+- Non-disclosure or misrepresentation can lead to claim rejection
+- After 8 years of continuous coverage, the insurer cannot reject a claim on grounds
+  of non-disclosure of pre-existing conditions (Section 45 read with IRDAI guidelines)
+
+CHAPTER 3: CASHLESS CLAIM PROCESS
+------------------------------------
+
+3.1 Network Hospital Cashless Facility
+Process flow:
+Step 1: Policyholder visits a network hospital listed by the insurer/TPA
+Step 2: For planned hospitalization — submit pre-authorization form 48 hours in advance
+Step 3: Hospital submits cashless request to TPA/Insurer
+Step 4: TPA/Insurer verifies coverage and approves/rejects within:
+  - Pre-authorization: 1 hour from receipt of complete documents
+  - Enhancement: 2 hours from receipt of enhancement request
+  - Final bill settlement: Within 3 hours of discharge (IRDAI mandate)
+Step 5: Insurer settles the bill directly with the hospital
+Step 6: Policyholder pays only non-covered expenses (if any)
+
+3.2 Required Documents for Cashless Claims
+- Health insurance ID card / policy number
+- Photo ID proof (Aadhaar/PAN/Passport)
+- Pre-authorization form filled by the treating doctor
+- Doctor's prescription and treatment plan
+- Diagnostic reports (as prescribed)
+
+CHAPTER 4: REIMBURSEMENT CLAIM PROCESS
+-----------------------------------------
+
+4.1 When Reimbursement Applies
+- Treatment at non-network hospitals
+- Cashless request denied or hospital not empanelled
+- Emergency treatment where cashless was not possible
+
+4.2 Claim Submission Timeline
+- Claim intimation: Within 24 hours of hospitalization (for planned admissions: 48 hours before)
+- Document submission: Within 15 days of discharge from hospital
+- Late submission: Up to 30 days with valid reason; beyond 30 days at insurer's discretion
+
+4.3 Required Documents for Reimbursement
+- Duly filled claim form
+- Original hospital bills and receipts (itemized)
+- Discharge summary from hospital
+- Investigation/diagnostic reports
+- Pharmacy bills with prescriptions
+- Doctor consultation records
+- KYC documents (Aadhaar, PAN, bank details)
+- FIR (in case of accident claims)
+
+CHAPTER 5: POLICY PORTABILITY
+-------------------------------
+
+5.1 IRDAI Portability Guidelines (Circular No. IRDAI/HLT/REG/CIR/296/11/2024)
+- Policyholders can port their health insurance from one insurer to another
+- Porting must be applied at least 45 days before the renewal date
+- The new insurer must give credit for the waiting periods already served
+- No break in coverage allowed — porting is only during renewal
+
+5.2 Portability Benefits
+- Pre-existing disease waiting period credit: Time already served is carried forward
+- No claim bonus: Accrued NCB is transferred (in terms of sum insured increase)
+- Continuous coverage recognition: No fresh waiting period for ported policies
+
+5.3 Portability Process
+Step 1: Policyholder applies to new insurer at least 45 days before renewal
+Step 2: New insurer requests portability data from old insurer via IRDAI portal
+Step 3: Old insurer must provide data within 7 days
+Step 4: New insurer underwrites and issues offer within 15 days
+Step 5: Policyholder accepts and pays premium to new insurer
+
+CHAPTER 6: EXCLUSIONS (STANDARD AS PER IRDAI)
+-------------------------------------------------
+
+6.1 General Exclusions Applicable to All Health Policies
+- Cosmetic or aesthetic treatment (unless required due to accident)
+- Dental treatment (unless requiring hospitalization)
+- Congenital external diseases or defects
+- Self-inflicted injuries
+- Treatment related to substance abuse or alcoholism
+- War, nuclear contamination, or terrorism-related injuries
+- Experimental or unproven treatments
+- Maternity expenses (unless specifically covered by rider/floater)
+- Obesity treatment/surgery (unless medically necessary with BMI > 40)
+- Refractive error correction (LASIK) — unless sum insured > INR 5 lakh
+
+6.2 Room Rent Sub-Limits
+- Standard policies may have room rent capped at 1% or 2% of sum insured per day
+- If actual room charges exceed the sub-limit, all associated costs are proportionally reduced
+- IRDAI encourages insurers to offer policies without room rent sub-limits
+
+CHAPTER 7: AYUSH COVERAGE
+---------------------------
+
+7.1 IRDAI Mandate for Alternative Medicine Coverage
+As per IRDAI directive, all health insurance policies must offer coverage for:
+- Ayurveda
+- Yoga and Naturopathy
+- Unani
+- Siddha
+- Homeopathy
+
+Coverage rules:
+- Treatment must be taken in a government-recognized AYUSH hospital
+- Hospital must be registered under the Clinical Establishments Act
+- Sum insured for AYUSH is same as for allopathic treatment
+- All standard claim documentation requirements apply

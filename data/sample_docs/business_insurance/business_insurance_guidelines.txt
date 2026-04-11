@@ -1,0 +1,220 @@
+BUSINESS AND CORPORATE INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+==============================================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Company Reference: ICICI Lombard General Insurance / ICICI Prudential Life Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: GROUP INSURANCE PRODUCTS
+--------------------------------------
+
+1.1 Group Health Insurance (GHI)
+Employer-sponsored health insurance covering employees and their dependents.
+
+IRDAI Group Health Insurance Guidelines:
+- Minimum group size: 20 members (IRDAI relaxed to 7 for micro/small enterprises)
+- Employee contribution: Can be fully employer-funded or co-paid
+- Sum insured range: INR 2,00,000 to INR 20,00,000
+- Coverage: Same as individual health policies (hospitalization, pre/post care)
+- Pre-existing diseases: Usually covered from Day 1 (no waiting period in group policies)
+- Maternity coverage: Commonly included with sub-limits
+- New joinee coverage: From date of joining (no initial waiting period)
+
+1.2 Group Term Life Insurance (GTLI)
+Employer-funded life insurance providing death benefit to employees.
+
+Key Features:
+- Minimum group size: 50 members (can be lower for specific schemes)
+- Sum assured: Multiple of annual salary (1x to 10x, typically 2x-3x)
+- Coverage: Death due to any cause (natural, accidental, illness)
+- Additional coverage: Accidental death and disability rider
+- Terminal illness benefit: Advance payment of 50% sum assured on terminal diagnosis
+- Free cover limit: Sum assured up to which no medical examination required
+  (Typically INR 50,00,000 - varies by insurer and group size)
+
+1.3 Group Personal Accident Insurance
+Covers employees for accidental death and disability:
+- Death due to accident: 100% of sum insured
+- Permanent total disability: 100% of sum insured
+- Permanent partial disability: Percentage table based on nature of disability
+- Temporary total disability: Weekly benefit (1% of sum insured per week, max 100 weeks)
+
+CHAPTER 2: COMMERCIAL PROPERTY INSURANCE
+-------------------------------------------
+
+2.1 Standard Fire and Special Perils (SFSP) for Commercial Properties
+Same base coverage as residential SFSP but with additional considerations:
+
+Key Differences from Residential:
+- Higher sum insured (typically crores of rupees)
+- Stock-in-trade covered (raw materials, work-in-progress, finished goods)
+- Machinery and equipment specifically valued
+- Business interruption add-on available
+- More stringent risk assessment and inspection requirements
+
+2.2 Industrial All Risk (IAR) Policy
+Broader coverage than SFSP for large industrial/commercial entities:
+- All risks coverage (any accidental loss or damage not specifically excluded)
+- Machinery breakdown included
+- Business interruption consequential loss
+- Higher limits and broader coverage scope
+- Suitable for large manufacturing, IT companies, retail chains
+
+2.3 Office Package Policy (Vyapar Suraksha)
+Comprehensive package for offices and small businesses:
+- Building and contents coverage
+- Burglary and theft
+- Money in transit and on premises
+- Employee fidelity guarantee
+- Electronic equipment coverage
+- Public liability
+- Personal accident for proprietor/partners
+
+CHAPTER 3: LIABILITY INSURANCE
+---------------------------------
+
+3.1 Professional Liability Insurance (Errors and Omissions / E&O)
+Covers professionals against claims of negligence or errors:
+
+Applicable Professions:
+- IT companies and consultants
+- Chartered Accountants
+- Doctors and hospitals (Medical Malpractice)
+- Lawyers and legal firms
+- Architects and engineers
+- Financial advisors and brokers
+
+Coverage includes:
+- Legal defense costs
+- Damages/compensation awarded by court
+- Settlement amounts (with insurer's consent)
+- Regulatory investigation costs
+
+Exclusions:
+- Intentional acts or fraud
+- Criminal prosecution
+- Known claims before policy inception
+- Contractual liability (unless arising from negligence)
+
+3.2 Directors and Officers (D&O) Liability Insurance
+Covers directors and officers against personal liability for decisions:
+- Wrongful act by director/officer in their capacity
+- Shareholder derivative suits
+- Regulatory investigations (SEBI, IRDAI, CCI)
+- Employment practices liability claims
+- Entity coverage for corporate indemnification
+- Coverage extends to past, present, and future D&Os
+
+3.3 Product Liability Insurance
+Covers manufacturers/sellers against claims for defective products:
+- Bodily injury caused by defective product
+- Property damage caused by defective product
+- Legal defense costs
+- Recall expenses (with specific endorsement)
+- Mandatory for e-commerce sellers and manufacturers under Consumer Protection Act 2019
+
+CHAPTER 4: MARINE INSURANCE
+------------------------------
+
+4.1 Marine Cargo Insurance
+Covers goods during transit by sea, air, rail, or road.
+
+Types of Coverage:
+a) Institute Cargo Clause (A) — All Risks:
+   Covers all risks of loss or damage except specifically excluded perils
+   Most comprehensive coverage
+
+b) Institute Cargo Clause (B) — Named Perils (Broader):
+   Covers specific named perils including fire, vessel stranding, overturning,
+   earthquake, volcanic eruption, washing overboard
+
+c) Institute Cargo Clause (C) — Named Perils (Basic):
+   Covers basic named perils only: fire, vessel stranding, overturning,
+   collision, discharge at port of distress
+
+4.2 Marine Hull Insurance
+Covers the vessel/ship itself against damage:
+- Total loss (actual or constructive)
+- Partial damage to hull and machinery
+- Salvage charges
+- General average contributions
+- Third-party collision liability
+
+4.3 Inland Transit Insurance
+Covers goods moving within India:
+- Rail transit
+- Road transit (truck, tempo, courier)
+- Inland waterway transit
+- Covers: Fire, overturning, collision, theft, natural calamities
+- Annual open covers available for regular shippers
+
+CHAPTER 5: KEYMAN INSURANCE
+------------------------------
+
+5.1 What is Keyman Insurance?
+Insurance taken by a company on the life of a key employee/executive whose
+death or disability would cause significant financial loss to the company.
+
+IRDAI Guidelines for Keyman Insurance:
+- The company is the proposer and premium payer
+- The key person is the life assured
+- The company is the nominee/beneficiary
+- Sum assured: Based on the financial loss estimated from the key person's absence
+- Maximum sum assured: 10x annual compensation of the key person OR
+  Expected future profit contribution, whichever is reasonable
+
+5.2 Tax Treatment of Keyman Insurance
+- Premium paid by the company: Tax-deductible as business expense (Section 37)
+- Maturity/death claim proceeds: Taxable as income of the company (revenue receipt)
+- If policy is assigned to the key person (on retirement):
+  The surrender value at assignment is taxable as perquisite for the employee
+  Subsequent maturity: Taxable under Section 17(1) as salary
+
+5.3 Assignment of Keyman Policy
+- Company can assign the policy to the keyman employee at retirement
+- Assignment must be with board resolution
+- Post-assignment: Employee becomes the policyholder and pays own premiums
+- Premium paid by employee post-assignment: Eligible for 80C deduction
+
+CHAPTER 6: WORKERS' COMPENSATION INSURANCE
+---------------------------------------------
+
+6.1 Legal Requirement
+As per the Employees' Compensation Act, 1923 (formerly Workmen's Compensation Act):
+- Employers are liable to pay compensation for work-related injuries/death
+- Insurance is MANDATORY for certain categories of workers/establishments
+- Covers: Death, permanent total/partial disability, temporary disability
+
+6.2 Compensation Amounts (Updated as per 2024 amendments)
+- Death: 50% of monthly wages × relevant factor (based on age) OR INR 1,20,000
+  whichever is higher (minimum compensation as per current rates)
+- Permanent total disability: Same as death compensation
+- Permanent partial disability: Percentage of disability × permanent total disability compensation
+- Temporary disability: 25% of monthly wages for disabled period
+
+6.3 Employer's Liability Policy
+- Covers the employer's legal liability to pay compensation
+- Coverage as per Employees' Compensation Act + Fatal Accidents Act
+- Premium based on number of employees, nature of work, and claims experience
+- Also covers legal defense costs for disputed claims
+
+CHAPTER 7: CLAIMS PROCEDURE FOR CORPORATE POLICIES
+------------------------------------------------------
+
+7.1 Group Health Insurance Claims
+- Cashless facility at network hospitals (same as individual policies)
+- TPA manages claims processing
+- HR department coordinates between employee and TPA
+- Documents: Employee ID, policy certificate, standard health claim documents
+
+7.2 Commercial Property Claims
+- Immediate intimation to insurer (within 24 hours of loss)
+- FIR for theft/burglary/malicious damage
+- Surveyor appointed by insurer for claims above INR 50,000
+- Detailed stock register required for stock-in-trade claims
+- Business interruption claims: Auditor's certificate for loss of profit
+
+7.3 Marine Cargo Claims
+- Survey at destination before taking delivery (if damage suspected)
+- Note damage on the delivery receipt
+- File claim with insurer within 7 days of taking delivery
+- Documents: Bill of Lading, Invoice, Packing List, Survey Report, Damage Photos

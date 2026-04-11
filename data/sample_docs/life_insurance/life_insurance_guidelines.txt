@@ -1,0 +1,151 @@
+LIFE INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+=========================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Company Reference: ICICI Prudential Life Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: PRODUCT CATEGORIES AND DEFINITIONS
+----------------------------------------------
+
+1.1 Term Life Insurance
+Term life insurance provides pure risk coverage for a specified period. If the policyholder
+dies during the term, the sum assured is paid to the nominee. No maturity benefit is payable
+if the policyholder survives the term.
+
+Key Features:
+- Minimum sum assured: INR 25,00,000 (as per IRDAI guidelines for online term plans)
+- Maximum entry age: 65 years
+- Minimum policy term: 5 years
+- Maximum policy term: Up to age 85 (or 40 years, whichever is lower)
+- Premium payment modes: Annual, Semi-Annual, Quarterly, Monthly
+
+1.2 Endowment Plans
+Endowment plans combine risk coverage with savings. They pay the sum assured on death
+during the policy term OR the maturity benefit on surviving the term.
+
+Guaranteed Surrender Value (GSV):
+- After 2 full years of premium payment, the policy acquires a surrender value
+- GSV = 30% of total premiums paid (excluding first year premium) for traditional plans
+- Special Surrender Value (SSV) = Paid-up value × (Remaining term factor)
+
+1.3 Unit Linked Insurance Plans (ULIPs)
+ULIPs are market-linked life insurance products where premiums are invested in equity,
+debt, or balanced funds chosen by the policyholder.
+
+IRDAI ULIP Regulations (2019 amended):
+- Minimum lock-in period: 5 years from date of inception
+- Maximum fund management charge: 1.35% per annum
+- Mortality charges must be based on published mortality tables
+- Policyholder can switch between funds — 4 free switches per year
+- Partial withdrawal allowed after 5 years lock-in period
+
+1.4 Pension and Annuity Plans
+These plans provide regular income after retirement. The accumulation phase builds a
+corpus, and the annuity phase provides regular pension payments.
+
+IRDAI Requirements:
+- Minimum annuity rate must be guaranteed at inception
+- At least 1/3 of the corpus can be commuted (taken as lump sum)
+- Remaining 2/3 must be used to purchase an annuity
+- Joint life annuity option must be available
+
+CHAPTER 2: FREE-LOOK PERIOD AND CANCELLATION
+----------------------------------------------
+
+2.1 Free-Look Period
+As per IRDAI Circular No. IRDA/Life/CIR/GDL/077/02/2024:
+- The policyholder has 15 days (30 days for distance marketing/online purchases) from
+  receipt of the policy document to review the terms and conditions
+- If not satisfied, the policyholder can return the policy and receive a refund
+- Refund amount = Premium paid - Stamp duty - Medical examination charges - 
+  Proportionate risk premium for the coverage period
+
+2.2 Cooling Off Period for ULIPs
+For ULIPs, the free-look cancellation value = Fund value as on date of cancellation +
+Charges levied through cancellation of units - Non-refundable charges as per IRDAI norms
+
+CHAPTER 3: GRACE PERIOD AND POLICY REVIVAL
+--------------------------------------------
+
+3.1 Grace Period for Premium Payment
+- Annual mode: 30 days from premium due date
+- Semi-annual mode: 30 days from premium due date
+- Quarterly mode: 30 days from premium due date
+- Monthly mode: 15 days from premium due date
+
+During the grace period, the policy remains in full force. If the insured dies during the
+grace period, the death benefit is payable after deducting the outstanding premium.
+
+3.2 Policy Lapse and Revival
+- A policy lapses if premium is not paid within the grace period
+- Revival is allowed within 5 years from the date of first unpaid premium (for traditional plans)
+- Revival requirements: Application form, health declaration, payment of all unpaid premiums
+  with interest, and possible medical examination
+- Revival interest rate: Prevailing rate as per company board approval (typically 9-10% p.a.)
+
+CHAPTER 4: NOMINATION AND ASSIGNMENT
+--------------------------------------
+
+4.1 Nomination (Section 39 of Insurance Act 1938)
+- Any policyholder can nominate one or more persons to receive the policy proceeds
+- Nominee must be a family member or legal heir
+- For ULIP and pension plans, specific nomination rules apply
+- Nomination can be changed any number of times during the policy term
+- Written notice must be given to the insurer for nomination change
+
+4.2 Beneficial Nominee vs Collector Nominee
+As per the Insurance Laws (Amendment) Act, 2015:
+- Beneficial Nominee: Spouse, children, and parents — they receive the proceeds as
+  absolute owners
+- Collector Nominee: Other nominees who hold the proceeds in trust for legal heirs
+
+4.3 Assignment (Section 38 of Insurance Act 1938)
+- Policy can be assigned (transferred) to another person
+- Assignment must be made by endorsement on the policy or by separate deed
+- Notice of assignment must be given to the insurer
+- Assignee gets all rights, title, and interest in the policy
+
+CHAPTER 5: DEATH CLAIM SETTLEMENT
+------------------------------------
+
+5.1 Claims Settlement Timeline (IRDAI mandate)
+- Simple death claims: Must be settled within 30 days of receipt of all documents
+- If investigation is required: Must be completed within 90 days from claim intimation
+- If investigation reveals no adverse findings: Claim must be paid within 30 days of
+  investigation completion
+- Total period from claim intimation to settlement: Not to exceed 6 months
+
+5.2 Required Documents for Death Claim
+- Original or certified copy of death certificate
+- Policy document (original)
+- Claim form (Form A) duly filled by nominee/claimant
+- NEFT details of claimant's bank account
+- KYC documents of claimant (Aadhaar, PAN)
+- FIR copy (in case of accidental/unnatural death)
+- Post-mortem report (if applicable)
+- Hospital records (in case of death due to illness)
+
+5.3 Early Death Claims (Within 3 years of policy inception)
+As per Section 45 of Insurance Act 1938 (amended):
+- Claims within 3 years: Insurer can investigate for misrepresentation/fraud
+- After 3 years: Policy cannot be called into question on any grounds whatsoever
+- Insurer must prove fraud with specific evidence; mere suspicion is not sufficient
+
+CHAPTER 6: TAX BENEFITS
+-------------------------
+
+6.1 Section 80C of Income Tax Act
+- Premium paid for life insurance qualifies for deduction under Section 80C
+- Maximum deduction: INR 1,50,000 per financial year
+- For policies issued after 01.04.2012: Premium should not exceed 10% of sum assured
+
+6.2 Section 10(10D) — Tax-Free Maturity
+- Maturity proceeds are tax-free under Section 10(10D) if:
+  - For policies issued after 01.04.2012: Annual premium does not exceed 10% of sum assured
+  - For policies issued after 01.04.2023 (Budget 2023): If total premium exceeds 
+    INR 5,00,000 in aggregate across all policies, the maturity is taxable
+
+6.3 Section 80CCC — Pension Plans
+- Contribution to pension/annuity plans qualifies for deduction under Section 80CCC
+- Maximum deduction combined with 80C: INR 1,50,000
+- Pension received is taxable as income in the year of receipt

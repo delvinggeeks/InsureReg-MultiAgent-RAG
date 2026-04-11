@@ -1,0 +1,180 @@
+HOME AND PROPERTY INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+========================================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Standard Fire and Special Perils Policy
+Company Reference: ICICI Lombard General Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: TYPES OF HOME & PROPERTY INSURANCE
+------------------------------------------------
+
+1.1 Standard Fire and Special Perils (SFSP) Policy
+The SFSP policy is the base policy for all property insurance in India, as prescribed by
+IRDAI/IRA (Insurance Regulatory Authority). It is governed by the India Market Tariff.
+
+Covered Perils:
+- Fire
+- Lightning
+- Explosion/implosion
+- Aircraft damage (impact of aircraft or articles dropped from aircraft)
+- Riot, strike, and malicious damage (RSMD)
+- Storm, tempest, flood, and inundation
+- Impact damage (by rail/road vehicles or animals)
+- Subsidence and landslide
+- Bursting or overflowing of water tanks or pipes
+- Missile testing operations
+- Leakage from automatic sprinkler installations
+- Bush fire
+
+1.2 Householder's Insurance Policy (Package Policy)
+A comprehensive package policy that covers:
+- Building structure (walls, fixtures, fittings)
+- Contents (furniture, appliances, personal belongings)
+- Burglary and theft
+- Personal accident for the policyholder
+- Third-party liability within the premises
+- Loss of rent if property is uninhabitable
+
+1.3 Structure-Only Policy
+Covers only the physical building structure, including:
+- Walls, roof, foundation
+- Fixed installations (plumbing, electrical wiring, fitted kitchens)
+- Boundary walls, gates, and compound
+- Does NOT cover contents, furniture, or movable items
+
+1.4 Contents-Only Policy
+Covers only the movable contents inside the property:
+- Furniture and furnishings
+- Electrical and electronic appliances
+- Clothing and personal effects
+- Jewellery and valuables (subject to specified sub-limits)
+- Kitchen equipment and utensils
+
+CHAPTER 2: SUM INSURED AND VALUATION
+----------------------------------------
+
+2.1 Valuation Basis
+As per IRDAI guidelines, the sum insured can be determined by:
+
+a) Reinstatement Value: Cost of rebuilding/replacing to the same condition as new
+   - Most recommended for building structure
+   - Premium is higher but provides full replacement cost
+
+b) Market Value: Current market value after depreciation
+   - Lower premium but inadequate coverage due to depreciation deduction at claim time
+
+c) Agreed Value: Sum insured agreed upon by insurer and insured based on valuation report
+   - Requires independent valuation by a certified surveyor
+   - Most suitable for commercial properties
+
+2.2 Under-Insurance and Average Clause
+- If the sum insured is less than the actual value of the property, the Average Clause applies
+- Claim payout = (Sum Insured / Actual Value) × Loss Amount
+- Example: Property worth INR 50 lakh insured for INR 25 lakh
+  If loss = INR 10 lakh → Claim = (25/50) × 10 = INR 5 lakh only
+- To avoid this, insured must accurately declare the full value
+
+CHAPTER 3: NATURAL CALAMITY COVERAGE
+---------------------------------------
+
+3.1 Earthquake Coverage
+- NOT automatically covered under SFSP — must be added as an optional extension
+- Earthquake Fire and Shock coverage: Available as an add-on
+- Premium: Additional percentage of sum insured based on seismic zone
+- Seismic Zone classification:
+  Zone V (Very High Risk): North-East India, J&K, Uttarakhand — Highest premium
+  Zone IV (High Risk): Delhi, parts of UP, Bihar — Higher premium
+  Zone III (Moderate Risk): Mumbai, Chennai — Moderate premium
+  Zone II (Low Risk): Most of Peninsular India — Lowest premium
+
+3.2 Flood and Waterlogging
+- Storm, tempest, flood, and inundation are COVERED under SFSP
+- Waterlogging due to overflow of drains or water bodies: Covered
+- Seepage/dampness: Generally EXCLUDED
+- Damage to property stored in basement during flood: May have sub-limits
+
+3.3 Cyclone and Windstorm
+- Covered under SFSP as part of "Storm and Tempest"
+- Includes damage from wind, rain accompanying the storm, and flying debris
+- Exclusion: Damage caused solely by rain without storm/wind is NOT covered
+
+CHAPTER 4: BURGLARY AND THEFT COVERAGE
+-----------------------------------------
+
+4.1 Burglary Insurance (Housebreaking)
+Coverage includes:
+- Loss of contents due to burglary or housebreaking
+- Damage to the premises caused during the burglary
+- "Housebreaking" = entry by use of force and violence to the building
+
+Requirements for valid claim:
+- Visible signs of forced entry (broken locks, windows, doors)
+- FIR filed with police within 24 hours of discovery
+- Inventory of stolen items with approximate values
+- Photographs of damaged entry points
+
+4.2 Theft vs. Burglary
+- Burglary: Involves forcible entry — COVERED
+- Theft: Loss without evidence of forced entry — Generally NOT covered
+- Mysterious disappearance: NOT covered
+- Loss by employees or domestic servants: NOT covered under standard policy
+  (can be covered under Fidelity Guarantee policy)
+
+4.3 Jewellery and Valuables
+- Sub-limit applies: Typically 20-30% of contents sum insured
+- Must be specifically declared with individual values
+- Valuation certificate from a certified jeweller is required
+- Items stored in a bank locker: NOT covered (separate policy required)
+
+CHAPTER 5: CLAIM PROCESS FOR HOME INSURANCE
+----------------------------------------------
+
+5.1 Claim Intimation
+- Inform the insurer within 24 hours of the incident
+- For theft/burglary: File FIR with police immediately
+- For natural calamities: Take photographs of damage before any repairs
+- Do not discard damaged items until surveyor inspection
+
+5.2 Required Documents
+- Duly filled claim form
+- FIR copy (for theft/burglary/malicious damage)
+- Photographs of damaged property/stolen items area
+- List of damaged/stolen items with purchase receipts (if available)
+- Repair estimates from contractors
+- Weather reports (for natural calamity claims)
+- Municipal/fire department reports (for fire claims)
+- Policy document copy
+- KYC documents and bank details
+
+5.3 Surveyor Assessment
+- Insurer appoints a licensed surveyor for claims above INR 50,000
+- Surveyor must submit report within 30 days (IRDAI mandate)
+- For claims below INR 50,000: Simplified settlement without surveyor
+- Policyholder can dispute the survey report and request reinspection
+
+5.4 Claim Settlement Timeline (IRDAI mandate)
+- Claim must be settled within 30 days of receipt of all documents
+- If surveyor is appointed: Within 30 days of surveyor's report
+- Maximum time: 6 months from date of claim intimation
+- Interest payable by insurer for delayed settlement beyond 30 days
+
+CHAPTER 6: EXCLUSIONS
+------------------------
+
+6.1 Standard Exclusions
+- War, invasion, foreign enemy action
+- Nuclear risks and radiation
+- Pollution or contamination (unless caused by covered peril)
+- Wear and tear, gradual deterioration
+- Vermin, insects, mildew, or damp
+- Electrical/mechanical breakdown (unless caused by covered peril)
+- Loss or damage to property undergoing construction, alteration, or repair
+- Wilful negligence by the insured
+- Property used for commercial/industrial purposes (residential policy)
+- Damage caused by pets owned by the insured
+
+6.2 Terrorism Cover
+- Terrorism is EXCLUDED from standard SFSP policy
+- Available as a separate add-on: Terrorism Risk Insurance cover
+- Pool arrangement through General Insurance Corporation (GIC) of India
+- Premium: Additional percentage based on location and sum insured

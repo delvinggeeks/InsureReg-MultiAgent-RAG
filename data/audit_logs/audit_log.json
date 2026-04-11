@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-04-11T10:16:42.520296",
+    "query": "Does home insurance cover damage from waterlogging?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 0.1,
+      "reasoning": "Default routing due to error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+    },
+    "response_preview": "I apologize, but I encountered an error while processing your query. Please try again or contact support. Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope**********...",
+    "sources_count": 0,
+    "sources": []
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-04-11T10:44:36.849206",
+    "query": "What is the free-look period for a ULIP policy?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 0.9,
+      "reasoning": "The query specifically pertains to a ULIP policy, which falls under life insurance products. The free-look period is a term relevant to life insurance policies, making this the appropriate department."
+    },
+    "response_preview": "### Free-Look Period for ULIP Policies\n\nThe free-look period for a Unit Linked Insurance Plan (ULIP) is defined under the IRDAI (Protection of Policyholders' Interests) Regulations, 2017. \n\n- **Durati...",
+    "sources_count": 0,
+    "sources": []
+  }
+]

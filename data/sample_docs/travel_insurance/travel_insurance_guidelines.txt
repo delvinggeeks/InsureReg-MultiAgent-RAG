@@ -1,0 +1,198 @@
+TRAVEL INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+=============================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Company Reference: ICICI Lombard General Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: TYPES OF TRAVEL INSURANCE
+---------------------------------------
+
+1.1 International Travel Insurance
+Covers risks associated with international travel including:
+- Medical emergencies and hospitalization abroad
+- Emergency medical evacuation and repatriation
+- Trip cancellation and interruption
+- Loss/delay of checked baggage
+- Loss of passport
+- Personal accident (death or disability during travel)
+- Personal liability coverage abroad
+- Hijack distress allowance
+
+Coverage amounts:
+- Medical coverage: USD 50,000 to USD 5,00,000 (depending on plan)
+- Baggage loss: USD 500 to USD 2,000
+- Trip cancellation: Up to 100% of trip cost (subject to policy limit)
+- Personal accident: USD 10,000 to USD 2,50,000
+
+1.2 Domestic Travel Insurance
+Covers risks within India:
+- Medical emergencies during domestic travel
+- Trip cancellation/curtailment
+- Loss of baggage and personal belongings
+- Flight delay compensation
+- Missed connecting flights
+- Hotel extension due to illness
+- Emergency hotel accommodation
+
+1.3 Student Travel Insurance
+Specialized coverage for students studying abroad:
+- Medical coverage (mandatory for most university admissions)
+- Sponsor protection (covers education if sponsor dies/becomes disabled)
+- Study interruption coverage
+- Personal liability
+- Compassionate visit by family member
+- Tuition fee coverage for repeat year due to medical emergency
+
+1.4 Corporate/Business Travel Insurance
+Group travel insurance for corporate employees:
+- Multi-trip annual policies available
+- Covers business travel equipment (laptops, samples)
+- Meeting cancellation coverage
+- Emergency business document replacement
+
+CHAPTER 2: VISA MANDATORY INSURANCE REQUIREMENTS
+---------------------------------------------------
+
+2.1 Schengen Visa Travel Insurance
+For travel to any of the 27 Schengen Area countries:
+MANDATORY requirements:
+- Minimum medical coverage: EUR 30,000 (approximately INR 27,00,000)
+- Coverage must be valid for all Schengen states
+- Policy must cover repatriation expenses and emergency medical evacuation
+- Must not have any deductible/excess for medical claims
+- Validity: Must cover the entire duration of stay + 15 days buffer
+
+2.2 Other Visa Requirements
+- USA (B1/B2): Travel insurance recommended but not mandatory
+- UK: Not mandatory but strongly recommended
+- Canada: Mandatory for Super Visa applicants — minimum CAD 100,000 coverage
+- Australia: Mandatory OSHC (Overseas Student Health Cover) for student visa
+- UAE: Mandatory health insurance for residence visa holders
+
+CHAPTER 3: MEDICAL EMERGENCY COVERAGE
+----------------------------------------
+
+3.1 Inpatient Treatment Abroad
+- Covers hospitalization expenses in the destination country
+- No sub-limits on room rent in most international policies
+- Emergency surgery and post-operative care included
+- ICU charges covered within overall medical sum insured
+
+3.2 Emergency Medical Evacuation
+- Air ambulance charges for medical evacuation to nearest adequate hospital
+- Repatriation to home country for continued treatment
+- Mortal remains repatriation (in case of death during travel)
+- Escort/companion travel expenses for accompanying family member
+
+3.3 Pre-Existing Disease Coverage
+- Most travel policies EXCLUDE pre-existing conditions
+- Some premium plans offer limited PED coverage for acute emergencies
+- Definition: "acute episode of pre-existing condition" means a sudden crisis
+  that requires immediate medical attention and could not have been foreseen
+- Chronic conditions management: NOT covered
+
+3.4 Telemedicine Facility
+Several travel insurers now offer:
+- 24/7 telemedicine consultation in the traveler's language
+- Initial medical assessment before hospital visit
+- Prescription guidance and pharmacy coordination abroad
+- Follow-up consultations during the trip
+
+CHAPTER 4: TRIP CANCELLATION AND INTERRUPTION
+------------------------------------------------
+
+4.1 Covered Reasons for Trip Cancellation
+A claim for trip cancellation is valid ONLY if caused by:
+- Death, injury, or serious illness of insured or immediate family member
+- Natural disasters at destination (earthquake, flood, volcanic eruption)
+- Insured being summoned for jury duty or as court witness
+- Terrorist incident at destination within 30 days before departure
+- Government travel advisory against travel to the destination
+- Insured's home damaged by fire, flood, or burglary within 72 hours of departure
+- Visa rejection (covered under specific policies)
+
+NOT covered:
+- Change of mind or personal preference
+- Work-related cancellation (unless covered by corporate policy)
+- Pandemic/epidemic-related restrictions (policy-specific — check wording)
+- Known or foreseeable events at the time of booking
+
+4.2 Trip Cancellation Reimbursement
+- Non-refundable travel costs: Flight tickets, hotel bookings, tour packages
+- Maximum reimbursement: Up to the sum insured for trip cancellation
+- Waiting period: Claims for cancellation within 24 hours of booking may not be covered
+- Documentation required: Cancellation confirmation, medical certificates, police reports
+
+4.3 Trip Curtailment
+- Covers additional travel costs to return home early due to covered reasons
+- Unused portion of travel arrangements is reimbursed
+- Reasonable additional accommodation and transport costs covered
+
+CHAPTER 5: BAGGAGE AND PERSONAL BELONGINGS
+---------------------------------------------
+
+5.1 Checked Baggage Loss
+- Covers permanent loss of checked-in baggage
+- Claim basis: Depreciated value of lost items (not replacement cost)
+- Per-item sub-limit: Typically USD 200-500 per single item
+- Total baggage coverage: USD 500 to USD 2,000 depending on plan
+- Exclusions: Cash, securities, business documents, perishable items,
+  contact lenses, artificial limbs, dental fittings
+
+5.2 Baggage Delay
+- Compensates for essential purchases when baggage is delayed
+- Trigger: Delay beyond 12 hours (some policies: 6 hours)
+- Coverage: USD 50-200 for essential clothing and toiletries
+- Must provide: Delay certificate from airline, purchase receipts
+
+5.3 Passport Loss
+- Covers expenses for obtaining duplicate/emergency passport
+- Travel and accommodation costs while waiting for replacement
+- Typically covers: Passport fees, photographs, courier charges
+- Maximum: USD 200-500
+
+CHAPTER 6: CLAIM PROCESS FOR TRAVEL INSURANCE
+-------------------------------------------------
+
+6.1 Emergency During Travel
+Step 1: Call the 24/7 emergency assistance helpline (number on insurance card)
+Step 2: Assistance team coordinates hospital admission/cashless facility
+Step 3: Keep all original bills, receipts, and medical reports
+Step 4: For baggage loss: File PIR (Property Irregularity Report) with airline
+Step 5: For theft: File police complaint at local police station
+
+6.2 Required Documents (Post-Trip Claim)
+- Duly filled claim form
+- Original policy document/certificate
+- Boarding passes and flight tickets
+- Medical bills and reports (original)
+- Hospital discharge summary
+- Police report (for theft/robbery)
+- Airline PIR report (for baggage claims)
+- Hotel/transport receipts for additional expenses
+- Visa rejection letter (for cancellation claims)
+- Death certificate (for mortal remains repatriation claims)
+
+6.3 Claim Settlement Timeline
+- Claim intimation: Within 30 days of return to India
+- Document submission: Within 60 days of claim intimation
+- Insurer settlement: Within 30 days of complete document submission
+- IRDAI mandate: Total settlement not to exceed 6 months
+
+CHAPTER 7: EXCLUSIONS
+------------------------
+
+7.1 Standard Travel Insurance Exclusions
+- Pre-existing medical conditions (unless specifically covered)
+- Travel against medical advice
+- Adventure sports/hazardous activities (unless add-on purchased)
+  Excluded activities: bungee jumping, skydiving, paragliding, scuba diving
+  below 30 meters, mountaineering above 4,000 meters
+- War, civil unrest, or military action
+- Nuclear or chemical contamination
+- Self-inflicted injuries or suicide
+- Travel under the influence of alcohol or drugs
+- Professional sports participation
+- Pregnancy-related expenses (unless complication during first 24 weeks)
+- Dental treatment (unless emergency due to accident)
+- Expenses for treatment that was the purpose of travel (medical tourism)

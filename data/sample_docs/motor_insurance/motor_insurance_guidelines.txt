@@ -1,0 +1,169 @@
+MOTOR INSURANCE REGULATORY GUIDELINES AND POLICY DOCUMENT
+============================================================
+Applicable Authority: IRDAI (Insurance Regulatory and Development Authority of India)
+Motor Vehicles Act, 1988 (as amended)
+Company Reference: ICICI Lombard General Insurance
+Document Version: 2024-25 Edition
+
+CHAPTER 1: TYPES OF MOTOR INSURANCE
+--------------------------------------
+
+1.1 Third-Party Liability Insurance (Mandatory)
+As per Section 146 of the Motor Vehicles Act, 1988:
+- Third-party motor insurance is MANDATORY for all motor vehicles in India
+- Covers liability to third parties for bodily injury or death
+- Also covers property damage to third-party property up to INR 7,50,000
+- Driving without valid insurance is a punishable offense:
+  First offense: Fine up to INR 2,000 and/or imprisonment up to 3 months
+  Subsequent offenses: Fine up to INR 4,000 and/or imprisonment up to 3 months
+
+1.2 Comprehensive Insurance (Optional but Recommended)
+Covers:
+- Third-party liability (as above)
+- Own damage (OD) to the insured vehicle
+- Theft of the vehicle
+- Fire, explosion, or self-ignition damage
+- Natural calamities: earthquake, flood, storm, hurricane, cyclone
+- Man-made calamities: riot, strike, malicious damage, terrorism
+- Personal accident cover for owner-driver: INR 15,00,000 (mandatory add-on)
+
+1.3 Standalone Own-Damage (OD) Policy
+As per IRDAI Notification dated 01 August 2020:
+- Vehicle owners can purchase separate OD policy from any insurer
+- TP and OD need NOT be from the same insurer
+- OD policy duration: 1 year (renewable annually)
+- TP policy duration: 3 years for new cars, 5 years for new two-wheelers
+
+CHAPTER 2: INSURED DECLARED VALUE (IDV)
+------------------------------------------
+
+2.1 IDV Calculation
+IDV is the maximum amount payable in case of total loss/theft of the vehicle.
+
+For vehicles up to 5 years old:
+IDV = Manufacturer's listed selling price - Depreciation
+
+Depreciation Schedule (IRDAI prescribed):
+| Vehicle Age | Depreciation % |
+|-------------|----------------|
+| Not exceeding 6 months | 5% |
+| 6 months to 1 year | 15% |
+| 1 year to 2 years | 20% |
+| 2 years to 3 years | 30% |
+| 3 years to 4 years | 40% |
+| 4 years to 5 years | 50% |
+
+For vehicles older than 5 years:
+IDV is determined by mutual agreement between insurer and insured, based on
+physical inspection and market conditions.
+
+2.2 IDV for Accessories
+- Electrical/electronic accessories: Declared separately, IDV calculated with same depreciation
+- Non-electrical accessories (e.g., CNG kit): Declared separately with depreciation
+- Bi-fuel kits: Must be declared and separate premium charged
+
+CHAPTER 3: NO-CLAIM BONUS (NCB)
+----------------------------------
+
+3.1 NCB Slab (IRDAI Standard)
+NCB is a discount on the OD premium for claim-free years:
+
+| Claim-Free Years | NCB Discount |
+|-----------------|--------------|
+| After 1 year | 20% |
+| After 2 years | 25% |
+| After 3 years | 35% |
+| After 4 years | 45% |
+| After 5+ years | 50% |
+
+3.2 NCB Transfer Rules
+- NCB belongs to the INSURED PERSON, not the vehicle
+- NCB can be transferred when the insured buys a new vehicle
+- NCB cannot be transferred to another person (except legal heir in case of death)
+- NCB is lost if a claim is made during the policy year
+- NCB can be protected with an NCB Protector add-on (claim without losing NCB)
+
+3.3 NCB Proof for Transfer
+- NCB certificate from the previous insurer
+- Self-declaration of NCB (accepted by most insurers)
+- Verification through the IIB (Insurance Information Bureau) portal
+
+CHAPTER 4: CLAIMS PROCEDURE
+------------------------------
+
+4.1 Accident Claim Process
+Step 1: Inform the insurer immediately (within 24 hours of the accident)
+Step 2: File an FIR with the local police (mandatory for third-party injury/death)
+Step 3: Do NOT move the vehicle (for major accidents) until surveyor inspects
+Step 4: Insurer appoints a surveyor to assess the damage
+Step 5: Get the vehicle repaired at an approved garage (for cashless claims)
+Step 6: Submit required documents:
+  - Duly filled claim form
+  - FIR / police complaint copy
+  - Driving license of the driver at the time of accident
+  - Registration Certificate (RC) copy
+  - Insurance policy copy
+  - Photographs of damaged vehicle
+  - Repair estimate from garage
+  - Original repair bills and payment receipts
+
+4.2 Cashless Repair at Network Garages
+- Insurer settles the bill directly with the network garage
+- Policyholder pays only the deductible/excess amount
+- Claim approval typically within 4-6 hours for minor repairs
+- Major damage: Surveyor visit within 48 hours
+
+4.3 Theft Claim Process
+Step 1: File FIR with police within 24 hours of theft
+Step 2: Inform the insurer within 24 hours
+Step 3: Provide: FIR copy, policy document, RC, all sets of car keys
+Step 4: If vehicle not traced in 90 days — obtain Non-Traceable Certificate from police
+Step 5: Submit final claim documents including Non-Traceable Certificate
+Step 6: Transfer vehicle ownership to insurer (via Form 28, 29, 30, 35)
+Step 7: Insurer settles the claim at IDV minus depreciation
+
+4.4 Depreciation on Parts (During Repairs)
+IRDAI-prescribed depreciation on replaced parts:
+| Part Type | Depreciation |
+|-----------|-------------|
+| Rubber, nylon, plastic parts | 50% |
+| Fiber glass components | 30% |
+| Glass | Nil |
+| Wooden parts | Nil |
+| Metal body parts | Nil (if vehicle < 5 years) |
+| Batteries | 50% |
+| Tyres and tubes | 50% |
+
+CHAPTER 5: ADD-ON COVERS
+---------------------------
+
+5.1 Available Add-Ons (Optional)
+- Zero Depreciation Cover: Full claim amount without depreciation deduction
+- Engine Protection Cover: Covers engine/gearbox damage due to water ingression
+- Road Side Assistance (RSA): Towing, battery jumpstart, flat tyre, fuel delivery
+- Return to Invoice (RTI): Covers the difference between IDV and invoice price
+- NCB Protector: Protects NCB even if a claim is made
+- Key Replacement Cover: Covers loss/damage of car keys
+- Personal Belongings Cover: Covers loss of personal items from the vehicle
+- Consumables Cover: Covers consumables used during repair (nuts, bolts, oil, etc.)
+
+5.2 Personal Accident Cover (Mandatory)
+As per IRDAI circular dated 20 August 2019:
+- Owner-driver personal accident cover of INR 15,00,000 is mandatory
+- Covers death or permanent disability due to motor vehicle accident
+- Can be purchased as standalone PA cover if not taken with motor insurance
+- Paid driver PA cover: Optional add-on available
+
+CHAPTER 6: RENEWAL AND BREAK-IN POLICY
+-----------------------------------------
+
+6.1 Renewal Norms
+- Policy renewal: Must be done before or on the expiry date
+- IRDAI allows online renewal without physical inspection if renewed within expiry
+- Premium changes: Based on annual IRDAI tariff revision + claims experience
+
+6.2 Break-in Policy (Lapsed Insurance)
+- If motor insurance has expired (even by 1 day): Vehicle inspection is mandatory
+- Inspection can be done at insurer's office or through mobile app (with geo-tagged photos)
+- Break-in period: NCB is lost if policy is not renewed within 90 days of expiry
+- Third-party insurance cannot have a break: Driving without TP insurance is illegal
