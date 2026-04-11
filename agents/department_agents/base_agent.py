@@ -35,26 +35,35 @@ class BaseDepartmentAgent:
             openai_api_key=OPENAI_API_KEY,
         )
         
-        # Build the RAG prompt
-        self.prompt = ChatPromptTemplate.from_messages([
-            ("system", self.system_prompt + """\n\n
-CONTEXT FROM RETRIEVED DOCUMENTS:
-─────────────────────────────────
-{context}
-─────────────────────────────────
+        # Build the RAG prompt — use .replace() not .format() so {context}/{query}
+        # LangChain placeholders are preserved untouched
+        rag_instructions = (
+            "\n\nCONTEXT FROM RETRIEVED DOCUMENTS:\n"
+            "─────────────────────────────────\n"
+            "{context}\n"
+            "─────────────────────────────────\n\n"
+            "STRICT RESPONSE RULES — follow these exactly:\n"
+            "1. Answer ONLY using the context provided above. Do NOT use any external knowledge.\n"
+            "2. If the context is empty or says 'No relevant documents found':\n"
+            "   → Say: 'I don't have information on this topic in the DEPT_NAME knowledge base. "
+            "Please upload relevant documents or consult the appropriate regulatory authority.'\n"
+            "3. If the query is outside the scope of DEPT_NAME:\n"
+            "   → Say: 'This query appears to be outside the scope of DEPT_NAME. "
+            "Please direct it to the appropriate department.'\n"
+            "4. If partial information is available, answer what you can and state what is missing.\n"
+            "5. Always cite the source document name (e.g. 'According to [filename]...').\n"
+            "6. Use clear headers and bullet points where appropriate.\n"
+            "7. End every response with:\n\n"
+            "---\n"
+            "*⚠️ This response is for informational purposes only and does not constitute "
+            "regulatory or compliance advice.*"
+        ).replace("DEPT_NAME", self.name)
 
-STRICT RESPONSE RULES — follow these exactly:
-1. Answer ONLY using the context provided above. Do NOT use any external knowledge.
-2. If the context is empty or says 'No relevant documents found':
-   → Respond: "I don't have information on this topic in the current knowledge base for {dept_name}. Please upload relevant documents or consult the appropriate regulatory authority."
-3. If the query is outside the scope of {dept_name}:
-   → Respond: "This query appears to be outside the scope of {dept_name}. Please direct it to the appropriate department."
-4. If partial information is available, answer what you can and clearly state what is missing.
-5. Always cite the source document name (e.g. 'According to [filename]...').
-6. Use clear headers and bullet points where appropriate.
-7. End every response with: \n\n---\n*⚠️ This response is for informational purposes only and does not constitute regulatory or compliance advice.*""".format(dept_name=self.name)),
+        self.prompt = ChatPromptTemplate.from_messages([
+            ("system", self.system_prompt + rag_instructions),
             ("human", "{query}"),
         ])
+
         
         # Build the chain
         self.chain = self.prompt | self.llm | StrOutputParser()
