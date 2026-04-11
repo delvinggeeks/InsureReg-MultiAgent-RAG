@@ -51,37 +51,78 @@ User Query
 
 ## ⚡ Quick Start
 
-### 1. Create Virtual Environment (Python 3.11)
+### 🪟 Windows (PowerShell)
+
+**Step 1 — Create virtual environment**
 ```powershell
 py -3.11 -m venv venv
 ```
 
-### 2. Install Dependencies
+**Step 2 — Install dependencies**
 ```powershell
 .\venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-### 3. Configure API Key
-Edit `.env` and replace the placeholder with your real key:
+**Step 3 — Configure API key**  
+Edit `.env` and replace the placeholder:
 ```
 OPENAI_API_KEY=sk-your-actual-key-here
 ```
 
-### 4. Run the Application
+**Step 4 — Run the app**
 ```powershell
 .\venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-> ⚠️ **Windows Note:** If `.\venv\Scripts\activate` fails with a security error, use the full path to the venv Python directly as shown above. Alternatively, run this once to fix it:
+> **Note:** If `.\venv\Scripts\activate` fails with a security error, use the full path above.  
+> To fix the policy permanently, run once:
 > ```powershell
 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
+> Then you can use `.\venv\Scripts\activate` followed by `streamlit run app.py`.
 
-### 5. Ingest Sample Documents
-Navigate to **📤 Upload Documents** page → Click **"📦 Ingest All Sample Docs"**
+---
 
-### 6. Start Chatting!
-Navigate to **💬 Chat** page and ask any insurance regulatory question.
+### 🍎 macOS / Linux (Terminal)
+
+**Step 1 — Create virtual environment**
+```bash
+python3.11 -m venv venv
+```
+
+**Step 2 — Activate virtual environment**
+```bash
+source venv/bin/activate
+```
+
+**Step 3 — Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**Step 4 — Configure API key**  
+Edit `.env` and replace the placeholder:
+```
+OPENAI_API_KEY=sk-your-actual-key-here
+```
+
+**Step 5 — Run the app**
+```bash
+streamlit run app.py
+```
+
+> **Note:** To deactivate the virtual environment when done: `deactivate`
+
+---
+
+### ✅ Final Steps (Both Platforms)
+
+Once the app opens at **http://localhost:8501**:
+
+1. Go to **📤 Upload Documents** → Click **"📦 Ingest All Sample Docs"**  
+   *(This embeds the 6 regulatory documents into ChromaDB — takes ~30–60 sec)*
+2. Go to **💬 Chat** → Ask any insurance regulatory question
+3. Watch the **live agent orchestration trace** as each tier processes your query
 
 ## 📁 Project Structure
 

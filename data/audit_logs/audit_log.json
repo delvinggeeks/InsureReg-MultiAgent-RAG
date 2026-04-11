@@ -26,5 +26,19 @@
     "response_preview": "### Free-Look Period for ULIP Policies\n\nThe free-look period for a Unit Linked Insurance Plan (ULIP) is defined under the IRDAI (Protection of Policyholders' Interests) Regulations, 2017. \n\n- **Durati...",
     "sources_count": 0,
     "sources": []
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-04-11T10:51:55.643221",
+    "query": "How does no-claim bonus transfer work when buying a new car?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.9,
+      "reasoning": "The query specifically pertains to no-claim bonus rules related to motor insurance when purchasing a new car, which falls under the motor insurance department."
+    },
+    "response_preview": "### No-Claim Bonus (NCB) Transfer When Buying a New Car\n\nThe No-Claim Bonus (NCB) is a discount on the premium offered by insurers for not making any claims during the policy period. Here\u2019s how the NC...",
+    "sources_count": 0,
+    "sources": []
   }
 ]
