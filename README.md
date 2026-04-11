@@ -8,25 +8,36 @@ A **capstone-level multi-agent AI system** built with LangGraph, OpenAI, ChromaD
 ## 🏗️ Architecture
 
 ```
-User Query
-    │
-    ▼
-┌──────────────────────────────────┐
-│      🎯 ORCHESTRATOR AGENT       │
-│  Analyzes query, routes to group │
-└──────────────┬───────────────────┘
-               │
-    ┌──────────┼──────────┐
-    ▼          ▼          ▼
-┌────────┐ ┌────────┐ ┌────────┐
-│Group A │ │Group B │ │Group C │
-│Individual│ │Asset  │ │Specialty│
-│Protection│ │Protection│ │Insurance│
-└────┬───┘ └────┬───┘ └────┬───┘
-     │          │          │
-  ┌──┴──┐   ┌──┴──┐   ┌──┴──┐
-  ▼     ▼   ▼     ▼   ▼     ▼
-❤️Life 🏥Health 🚗Motor 🏠Home ✈️Travel 🏢Business
+                          USER QUERY
+                              │
+                              ▼
+                 ┌────────────────────────────┐
+                 │      ORCHESTRATOR AGENT     │
+                 │  Analyzes query & routes to │
+                 │     the right department    │
+                 └─────────────┬──────────────┘
+                               │
+           ┌───────────────────┼───────────────────┐
+           │                   │                   │
+           ▼                   ▼                   ▼
+  ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+  │    GROUP A      │ │    GROUP B      │ │    GROUP C      │
+  │   Individual    │ │     Asset       │ │   Specialty     │
+  │   Protection    │ │   Protection    │ │   Insurance     │
+  │   Supervisor    │ │   Supervisor    │ │   Supervisor    │
+  └────────┬────────┘ └────────┬────────┘ └────────┬────────┘
+           │                   │                   │
+      ┌────┴────┐         ┌────┴────┐         ┌────┴────┐
+      │         │         │         │         │         │
+      ▼         ▼         ▼         ▼         ▼         ▼
+  ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐
+  │  ❤️   │ │  🏥   │ │  🚗   │ │  🏠   │ │  ✈️   │ │  🏢   │
+  │ Life  │ │Health │ │ Motor │ │ Home  │ │Travel │ │  Biz  │
+  └───────┘ └───────┘ └───────┘ └───────┘ └───────┘ └───────┘
+    RAG ▲     RAG ▲     RAG ▲     RAG ▲     RAG ▲     RAG ▲
+        └─────────┴─────────┴─────────┴─────────┴─────────┘
+                         ChromaDB Vector Store
+                    (one collection per department)
 ```
 
 ## 📋 6 Insurance Departments
