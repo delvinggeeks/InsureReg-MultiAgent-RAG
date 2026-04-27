@@ -5,7 +5,7 @@ InsureReg - Department Information Page
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
 from ui.components.styles import get_custom_css

@@ -3,6 +3,7 @@
 
 # Virtual environment
 venv/
+.venv/
 
 # Python
 __pycache__/
@@ -24,3 +25,13 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Excluded folders
+tests/
+scripts/
+
+# Non-implementation files
+IMPLEMENTATION_REPORT.md
+VIVA_PREP_INTENT_CLASSIFIER.md
+abstract.txt
+.env.example

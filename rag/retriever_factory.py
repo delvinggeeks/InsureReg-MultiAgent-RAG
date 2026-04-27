@@ -3,7 +3,7 @@ InsureReg - Retriever Factory
 Creates LangChain retrievers for each department from ChromaDB collections.
 """
 
-from config.settings import RETRIEVAL_K
+from config.settings import RETRIEVAL_K, SIMILARITY_THRESHOLD
 from rag.vectorstore_manager import vectorstore_manager
 from utils.logger import get_logger
 
@@ -31,10 +31,9 @@ class RetrieverFactory:
         """
         Retrieve relevant documents for a query.
 
-        Strategy:
-          1. Try similarity_search_with_relevance_scores (gives scores for display)
-          2. If that returns 0 results, fall back to plain similarity_search
-          3. Return list of dicts with content, source, score
+        Queries ChromaDB's native collection API directly to avoid Pydantic
+        Document validation errors that occur with LangChain's wrapper when
+        stored chunks have None page_content values.
         """
         try:
             store = vectorstore_manager.get_vectorstore(department)
@@ -52,37 +51,49 @@ class RetrieverFactory:
                 )
                 return []
 
-            # Primary: similarity search with scores
-            try:
-                raw = store.similarity_search_with_relevance_scores(query, k=RETRIEVAL_K)
-                documents = [
-                    {
-                        "content":     doc.page_content,
-                        "source":      doc.metadata.get("source", "Unknown"),
-                        "file_path":   doc.metadata.get("file_path", ""),
-                        "page_number": doc.metadata.get("page_number", ""),
-                        "score":       round(float(score), 3),
-                    }
-                    for doc, score in raw
-                ]
-            except Exception as e:
-                logger.warning(f"[{department}] similarity_search_with_relevance_scores failed: {e}. Falling back.")
-                documents = []
+            # Query ChromaDB natively — bypasses LangChain Document Pydantic validation
+            n = min(RETRIEVAL_K, max(1, doc_count))
+            embedding = vectorstore_manager.embeddings.embed_query(query)
+            results = store._collection.query(
+                query_embeddings=[embedding],
+                n_results=n,
+                include=["documents", "metadatas", "distances"],
+            )
 
-            # Fallback: plain similarity_search (no score filtering)
-            if not documents:
-                logger.info(f"[{department}] Falling back to plain similarity_search")
-                raw_docs = store.similarity_search(query, k=RETRIEVAL_K)
-                documents = [
-                    {
-                        "content":     doc.page_content,
-                        "source":      doc.metadata.get("source", "Unknown"),
-                        "file_path":   doc.metadata.get("file_path", ""),
-                        "page_number": doc.metadata.get("page_number", ""),
-                        "score":       1.0,  # Score unknown in fallback
-                    }
-                    for doc in raw_docs
-                ]
+            raw_docs  = results.get("documents",  [[]])[0]   # list[str | None]
+            raw_metas = results.get("metadatas",  [[]])[0]   # list[dict | None]
+            raw_dists = results.get("distances",  [[]])[0]   # list[float]
+
+            documents = []
+            for content, meta, dist in zip(raw_docs, raw_metas, raw_dists):
+                content = content or ""
+                meta    = meta or {}
+                # ChromaDB default is squared L2 distance (∈ [0, 4] for unit vectors).
+                # For unit-normalised OpenAI embeddings: cos_sim ≈ 1 - dist/2
+                score   = round(max(0.0, min(1.0, 1.0 - float(dist) / 2.0)), 3)
+                documents.append({
+                    "content":        content,
+                    "source":         meta.get("source", "Unknown"),
+                    "display_source": meta.get("display_source") or meta.get("source", "Unknown"),
+                    "doc_title":      meta.get("doc_title", ""),
+                    "authority":      meta.get("authority", ""),
+                    "company":        meta.get("company", ""),
+                    "version":        meta.get("version", ""),
+                    "file_path":      meta.get("file_path", ""),
+                    "page_number":    meta.get("page_number", ""),
+                    "score":          score,
+                })
+
+            # Apply relevance threshold — filters low-quality chunks when configured
+            if SIMILARITY_THRESHOLD > 0.0:
+                before    = len(documents)
+                documents = [d for d in documents if d["score"] >= SIMILARITY_THRESHOLD]
+                dropped   = before - len(documents)
+                if dropped:
+                    logger.info(
+                        f"[{department}] Threshold {SIMILARITY_THRESHOLD} removed "
+                        f"{dropped} low-relevance chunk(s)"
+                    )
 
             logger.info(f"[{department}] Retrieved {len(documents)} chunks for: '{query[:60]}'")
             return documents

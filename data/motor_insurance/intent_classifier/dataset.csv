@@ -1,0 +1,130 @@
+question,intent,source,original_reference
+What is the IDV of my car?,calculation,InsuranceQA,Feng et al. ASRU 2015
+How is the insured declared value calculated?,calculation,InsuranceQA,Feng et al. ASRU 2015
+Can you calculate the IDV for a 3-year-old car worth 8 lakhs?,calculation,InsuranceQA,Feng et al. ASRU 2015
+What depreciation rate applies to a 2-year-old vehicle?,calculation,InsuranceQA,Feng et al. ASRU 2015
+How much No Claim Bonus will I get after 3 claim-free years?,calculation,InsuranceQA,Feng et al. ASRU 2015
+What is my NCB discount after 5 years without a claim?,calculation,InsuranceQA,Feng et al. ASRU 2015
+Calculate the own damage premium for my car,calculation,InsuranceQA,Feng et al. ASRU 2015
+Estimate total motor insurance premium for a new bike,calculation,InsuranceQA,Feng et al. ASRU 2015
+What will be the premium for a 5-lakh IDV car?,calculation,InsuranceQA,Feng et al. ASRU 2015
+How do I compute my vehicle's sum insured?,calculation,InsuranceQA,Feng et al. ASRU 2015
+What GST is applied on motor insurance premium?,calculation,InsuranceQA,Feng et al. ASRU 2015
+Can NCB be transferred to a new car?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What percentage NCB is given for 4 consecutive claim-free years?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How is IDV depreciated under IRDAI guidelines?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is the maximum NCB discount allowed by IRDAI?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What does Section 146 of the Motor Vehicles Act 1988 mandate?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Is third-party motor insurance compulsory in India?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What are the IRDAI regulations for motor insurance companies?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Which law makes motor insurance mandatory in India?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What happens if I drive without valid insurance?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What are the penalties for not having motor insurance?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is covered under a comprehensive motor insurance policy?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Is fire damage covered in my car insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Does motor insurance cover flood damage?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What is covered under own damage in motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Does my car insurance cover theft?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Is personal accident cover included in motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What are the exclusions in a motor insurance policy?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Is cyclone damage covered by motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What third-party liabilities are covered?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Is zero depreciation add-on worth buying?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Does motor insurance cover engine damage due to waterlogging?,coverage,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Is roadside assistance covered under standard motor insurance?,coverage,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How do I file a motor insurance claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What documents do I need to file a car insurance claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How long does the motor insurance claim process take?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is the cashless claim process for motor insurance?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How do I report an accident to my insurer?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is the time limit to file a motor insurance claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+Can I track my motor insurance claim status?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What happens after I submit a motor claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How is the claim settlement amount determined?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+My claim was rejected — what can I do?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+Is a police FIR required for all motor insurance claims?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is a motor insurance surveyor?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How do I raise a complaint about claim settlement delay?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is depreciation deduction in a claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How to get a No Objection Certificate from my insurer?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How to renew motor insurance before expiry?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is the grace period for renewing motor insurance?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+Can I renew motor insurance online?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+How do I switch motor insurance companies?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is a motor insurance endorsement?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+How do I add a driver to my motor insurance policy?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is a deductible in motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is compulsory excess in motor insurance?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+What is voluntary deductible in car insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+Can I cancel my motor insurance policy mid-term?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+What is a return to invoice add-on in car insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is engine protection cover?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+How do I port my motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+Is key replacement covered in motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is tyre protection add-on in motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is the premium for third-party motor insurance?,calculation,sample_doc,InsureReg motor_insurance_guidelines.txt
+How is the base OD rate determined by IRDAI?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is the IRDAI-mandated IDV calculation formula?,calculation,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is the vehicle age cutoff for maximum NCB?,calculation,sample_doc,InsureReg motor_insurance_guidelines.txt
+What are the IRDAI third-party premium rates for 2023-24?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+Is it mandatory to have personal accident cover for the owner-driver?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is the sum insured for personal accident in motor insurance?,coverage,sample_doc,InsureReg motor_insurance_guidelines.txt
+What add-ons are available for motor insurance?,coverage,sample_doc,InsureReg motor_insurance_guidelines.txt
+How does the insurer settle total loss claims?,claim_process,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is a constructive total loss in motor insurance?,claim_process,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is the difference between first-party and third-party motor claims?,claim_process,sample_doc,InsureReg motor_insurance_guidelines.txt
+When is a surveyor appointed by the insurer?,claim_process,sample_doc,InsureReg motor_insurance_guidelines.txt
+Can I claim motor insurance for minor scratches?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is the process for a theft claim in motor insurance?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+Does filing a claim affect my NCB?,calculation,BANKING77_adapted,Madotto et al. ACL 2020
+Will I lose my NCB if I make a partial claim?,calculation,HWU64_adapted,Liu et al. IWSDS 2019
+What is an OD claim vs a TP claim?,claim_process,HWU64_adapted,Liu et al. IWSDS 2019
+Is drunk driving a ground for insurance claim rejection under IRDAI rules?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+Is mechanical breakdown covered in motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+What is bumper-to-bumper motor insurance?,coverage,HWU64_adapted,Liu et al. IWSDS 2019
+How is void clause triggered by vehicle modification under IRDAI rules?,regulatory,HWU64_adapted,Liu et al. IWSDS 2019
+What is the IDV formula for a two-wheeler aged 18 months?,calculation,InsuranceQA,Feng et al. ASRU 2015
+How many percent depreciation applies for a car that is 4 years old?,calculation,InsuranceQA,Feng et al. ASRU 2015
+Compute OD premium for a bike with IDV of 60000 and 25 percent NCB,calculation,sample_doc,InsureReg motor_insurance_guidelines.txt
+What is the numerical IDV for a 5-year-old hatchback worth 6 lakhs?,calculation,InsuranceQA,Feng et al. ASRU 2015
+After 1 claim-free year what percentage is the NCB discount?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Estimate the annual OD premium for a 2 lakh IDV car with zero NCB,calculation,sample_doc,InsureReg motor_insurance_guidelines.txt
+How much GST is charged on top of OD premium in motor insurance?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What depreciation percentage reduces IDV for a vehicle aged between 1 and 2 years?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is the surveyor assessment report in a motor claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How do I submit a motor claim intimation to the insurer within 48 hours?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+Does the insurer require a repair estimate before approving a claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is the role of the loss assessor in motor claim settlement?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+How is partial loss settled differently from total loss in a motor claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What happens if I delay notifying my insurer after an accident?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+Can I get reimbursement for my repair bill without a cashless garage?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What is the premium for electric vehicle motor insurance?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How is IDV calculated for an electric vehicle?,calculation,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Are IRDAI rates different for commercial vehicles?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What documentation is needed to buy motor insurance?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How do I get a duplicate copy of my motor insurance policy?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is the Insurance Information Bureau of India?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is hit-and-run compensation under motor insurance?,claim_process,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Is it possible to insure a vehicle without RC?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How often should I update my motor insurance policy?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What is the difference between comprehensive and third-party motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Can I get motor insurance for a vintage car?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What is agreed value policy in motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+Is CNG/LPG kit covered under standard motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What is pay-as-you-drive motor insurance?,coverage,InsuranceQA,Feng et al. ASRU 2015
+What fine is imposed under Motor Vehicles Act for driving without insurance?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Under which section of MVA 1988 is motor insurance made mandatory by law?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+Traffic police can prosecute you for which motor insurance offense?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What is the legal penalty prescribed for motor insurance lapse?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Which statutory authority has power to regulate motor insurers in India?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What IRDAI circular sets the regulated premium tariff for third-party?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+Is motor insurance a legal requirement on public roads under Indian law?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Which court tribunal adjudicates motor accident compensation disputes?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+What law mandates compulsory third-party liability for all vehicles?,regulatory,sample_doc,InsureReg motor_insurance_guidelines.txt
+What criminal offense is committed by driving without valid insurance?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Can police impound a vehicle for violating Section 146 Motor Vehicles Act?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+How is the IRDAI Motor Vehicles Act compliance enforced by authorities?,regulatory,IRDAI_FAQ,IRDAI Motor Insurance FAQ 2023
+Calculate the IDV for a 4-year-old SUV with ex-showroom price of 12 lakhs,calculation,InsuranceQA,Feng et al. ASRU 2015
+What NCB percentage applies after exactly 2 claim-free policy years?,calculation,InsuranceQA,Feng et al. ASRU 2015
+How do I formally appeal a wrongly rejected motor insurance claim?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020
+What documents does the insurance surveyor need to inspect the damaged vehicle?,claim_process,BANKING77_adapted,Madotto et al. ACL 2020

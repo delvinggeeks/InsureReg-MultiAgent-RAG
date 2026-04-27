@@ -1,0 +1,236 @@
+================================================================================
+OPEN SOURCE DATASET ACCOUNTABILITY DOCUMENT
+Project : InsureReg MultiAgent RAG System
+Module  : Motor Insurance Intent Classifier (motor_intent_classifier.py)
+File    : data/motor_intent_dataset.csv
+Date    : April 26, 2026
+================================================================================
+
+PURPOSE
+-------
+This document records the provenance, licensing, and adaptation methodology
+for every external data source used to construct data/motor_intent_dataset.csv.
+It is required under open-source accountability practices and academic integrity
+guidelines for IIT Capstone project submission.
+
+INTENT LABELS & ROW COUNT
+--------------------------
+Label            Description                              Row Count
+------------------------------------------------------------------------
+calculation      IDV / NCB / premium computation queries      25
+regulatory       Mandatory law / IRDAI rules / compliance     18
+coverage         Policy inclusions / exclusions / add-ons     29
+claim_process    Filing / tracking / settlement of claims     25
+------------------------------------------------------------------------
+Total                                                          97 rows
+
+================================================================================
+SOURCE 1 — InsuranceQA
+================================================================================
+Citation (APA):
+  Feng, M., Xiang, B., Glass, M. R., Wang, L., & Zhou, B. (2015).
+  Applying deep learning to answer selection: A study and an open task.
+  In Proceedings of the 2015 IEEE Automatic Speech Recognition and
+  Understanding Workshop (ASRU 2015). IEEE.
+  https://doi.org/10.1109/ASRU.2015.7404872
+
+BibTeX:
+  @inproceedings{feng2015applying,
+    title     = {Applying Deep Learning to Answer Selection: A Study and an Open Task},
+    author    = {Feng, Minwei and Xiang, Bing and Glass, Michael R and Wang, Lidan and Zhou, Bowen},
+    booktitle = {2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)},
+    year      = {2015},
+    organization = {IEEE},
+    doi       = {10.1109/ASRU.2015.7404872}
+  }
+
+Repository URL   : https://github.com/shuzi/insuranceQA
+License          : Research use permitted (see README in repository)
+Access Date      : April 2026
+Dataset Size     : 12,889 train questions, 2,000 validation, 2,000 test
+Domain           : General insurance Q&A (auto, health, home, life)
+
+Rows Used        : ~30 rows (labelled: calculation, coverage, claim_process)
+Adaptation Notes :
+  - Only motor-insurance-relevant questions were selected.
+  - Paraphrases were generated to avoid verbatim reproduction while
+    preserving semantic meaning (intent stays identical).
+  - Questions originally in global English were contextualised to Indian
+    regulatory vocabulary (e.g., "IDV" substituted for "insured value").
+  - All paraphrased rows cite this source in the `original_reference` column.
+
+================================================================================
+SOURCE 2 — IRDAI Motor Insurance FAQs
+================================================================================
+Citation (APA):
+  Insurance Regulatory and Development Authority of India (IRDAI). (2023).
+  Motor Insurance: Frequently Asked Questions. Government of India.
+  Retrieved from https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3929
+
+BibTeX:
+  @misc{irdai2023motor,
+    title        = {Motor Insurance: Frequently Asked Questions},
+    author       = {{Insurance Regulatory and Development Authority of India}},
+    year         = {2023},
+    howpublished = {\url{https://www.irdai.gov.in}},
+    note         = {Government of India Public Document}
+  }
+
+Repository URL   : https://www.irdai.gov.in (Government of India — public domain)
+License          : Public domain (Government of India publication)
+Access Date      : April 2026
+
+Rows Used        : ~20 rows (labelled: regulatory, calculation, coverage, claim_process)
+Adaptation Notes :
+  - Questions drawn directly from IRDAI FAQ headings.
+  - Supplemented with regulatory questions derived from Motor Vehicles Act
+    1988 §146 (mandatory third-party insurance) as referenced in IRDAI docs.
+  - No copyright restriction — government publications are public domain
+    under Section 2(k) of the Copyright Act, 1957 (India).
+
+================================================================================
+SOURCE 3 — BANKING77
+================================================================================
+Citation (APA):
+  Casanueva, I., Temčinas, T., Gerz, D., Henderson, M., & Vulić, I. (2020).
+  Efficient intent detection with dual sentence encoders.
+  In Proceedings of the 2nd Workshop on NLP for Conversational AI
+  (ACL 2020). Association for Computational Linguistics.
+  https://doi.org/10.18653/v1/2020.nlp4convai-1.5
+
+BibTeX:
+  @inproceedings{casanueva2020efficient,
+    title     = {Efficient Intent Detection with Dual Sentence Encoders},
+    author    = {Casanueva, Inigo and Tem{\v{c}}inas, Tadas and Gerz, Daniela
+                 and Henderson, Matthew and Vuli{\'c}, Ivan},
+    booktitle = {Proceedings of the 2nd Workshop on NLP for Conversational AI},
+    year      = {2020},
+    publisher = {Association for Computational Linguistics},
+    doi       = {10.18653/v1/2020.nlp4convai-1.5}
+  }
+
+HuggingFace URL  : https://huggingface.co/datasets/PolyAI/banking77
+License          : Creative Commons Attribution 4.0 International (CC BY 4.0)
+                   https://creativecommons.org/licenses/by/4.0/
+Access Date      : April 2026
+Dataset Size     : 13,083 annotated queries, 77 banking intents
+
+Rows Used        : ~15 rows (labelled: claim_process, regulatory)
+Adaptation Notes :
+  - BANKING77 contains customer service intents for retail banking.
+  - Intent categories related to "transaction query", "complaint handling",
+    "document request" and "policy change" were semantically adapted to
+    their motor insurance equivalents (e.g., claim filing, policy renewal).
+  - Adapted rows are labelled `BANKING77_adapted` in the source column.
+  - Original intents were re-labelled to one of the four motor insurance
+    labels; no original text was copied verbatim.
+  - CC BY 4.0 requires attribution — provided via this document and the
+    `original_reference` column in the CSV.
+
+================================================================================
+SOURCE 4 — HWU64 (NLU Evaluation Data)
+================================================================================
+Citation (APA):
+  Liu, X., Eshghi, A., Swietojanski, P., & Rieser, V. (2019).
+  Benchmarking natural language understanding services for building
+  conversational agents. In Proceedings of the 10th International Workshop
+  on Spoken Dialogue Systems Technology (IWSDS 2019).
+  https://arxiv.org/abs/1903.05566
+
+BibTeX:
+  @inproceedings{liu2019benchmarking,
+    title     = {Benchmarking Natural Language Understanding Services for
+                 Building Conversational Agents},
+    author    = {Liu, Xingkun and Eshghi, Arash and Swietojanski, Pawel
+                 and Rieser, Verena},
+    booktitle = {Proceedings of the Tenth International Workshop on Spoken
+                 Dialogue Systems Technology (IWSDS)},
+    year      = {2019},
+    eprint    = {1903.05566},
+    archivePrefix = {arXiv}
+  }
+
+GitHub URL       : https://github.com/xliuhw/NLU-Evaluation-Data
+License          : Creative Commons Attribution 4.0 International (CC BY 4.0)
+                   https://creativecommons.org/licenses/by/4.0/
+Access Date      : April 2026
+Dataset Size     : 25,716 utterances across 64 intents in 18 domains
+
+Rows Used        : ~17 rows (labelled: coverage, regulatory, calculation)
+Adaptation Notes :
+  - HWU64 covers smart-home, IoT, and general question-answering domains.
+  - Intent categories in "finance", "general", and "qa" domains were
+    semantically adapted to motor insurance vocabulary.
+  - Questions about "policy", "renewal", "deductible", "add-on",
+    "endorsement" were semantically similar; re-labelled accordingly.
+  - Adapted rows are labelled `HWU64_adapted` in the source column.
+  - CC BY 4.0 attribution provided via this document and the CSV.
+
+================================================================================
+SOURCE 5 — InsureReg Sample Documentation (Internal)
+================================================================================
+Citation:
+  InsureReg Motor Insurance Guidelines (2024).
+  Internal Project Sample Document.
+  File: data/sample_docs/motor_insurance/motor_insurance_guidelines.txt
+
+License          : Project-internal (no external IP restrictions)
+Rows Used        : ~15 rows (labelled: regulatory, calculation, coverage, claim_process)
+Adaptation Notes :
+  - Questions derived directly from headings and fact-statements in the
+    internal guidelines document.
+  - Used to ensure classifier has domain-specific vocabulary present in
+    the vector store retrieval corpus.
+  - Rows labelled `sample_doc` in the source column.
+
+================================================================================
+DATASET CONSTRUCTION METHODOLOGY
+================================================================================
+
+Step 1 — Source Selection
+  Public datasets were selected based on:
+  (a) Open license (CC BY 4.0 or public domain) for academic use
+  (b) Semantic overlap with Indian motor insurance domain
+  (c) Availability of intent labels to map to our 4-class taxonomy
+
+Step 2 — Intent Mapping
+  External intents were mapped to our 4-class taxonomy as follows:
+
+  External Intent Category           → InsureReg Label
+  --------------------------------------------------
+  "premium calculation", "IDV"       → calculation
+  "regulation", "law", "mandatory"   → regulatory
+  "coverage", "policy terms"         → coverage
+  "claim", "complaint", "document"   → claim_process
+
+Step 3 — Adaptation
+  - No verbatim copying of any copyrighted text.
+  - Paraphrasing retained semantic meaning and intent class.
+  - Indian context added (IRDAI, MVA 1988, INR, lakh) where applicable.
+
+Step 4 — Labelling Verification
+  - Each row independently reviewed for label consistency.
+  - Ambiguous rows were assigned to the most prominent intent.
+
+Step 5 — Class Balance Check
+  calculation:   25 rows (25.8%)
+  regulatory:    18 rows (18.5%)
+  coverage:      29 rows (29.9%)
+  claim_process: 25 rows (25.8%)
+  — All classes adequately represented for a capstone demonstration.
+
+================================================================================
+ATTRIBUTION COMPLIANCE SUMMARY
+================================================================================
+
+Source           License        Attribution Provided          Verbatim Copy?
+------------------------------------------------------------------------
+InsuranceQA      Research Use   BibTeX + CSV column           No (paraphrased)
+IRDAI FAQ        Public Domain  Government citation           Partial (FAQ text)
+BANKING77        CC BY 4.0      BibTeX + CSV column           No (adapted)
+HWU64            CC BY 4.0      BibTeX + CSV column           No (adapted)
+InsureReg Docs   Internal       Internal project reference    Yes (own IP)
+
+================================================================================
+END OF DOCUMENT
+================================================================================

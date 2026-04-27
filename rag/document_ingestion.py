@@ -34,16 +34,54 @@ class DocumentIngestionPipeline:
             separators=["\n\n", "\n", ". ", " ", ""],
         )
     
+    def _parse_doc_header(self, content: str, file_name: str) -> dict:
+        """
+        Extract title, authority, company reference and version from the first
+        few lines of an IRDAI guideline document.
+        Returns a metadata dict with human-readable display_source.
+        """
+        lines = [l.strip() for l in content.splitlines() if l.strip()][:10]
+        title = authority = company = version = ""
+        for line in lines:
+            if line.startswith("==") or not line:
+                continue
+            if not title and line.isupper() and len(line) > 10:
+                title = line.title()
+            elif "Applicable Authority:" in line:
+                authority = line.split("Applicable Authority:", 1)[-1].strip()
+            elif "Company Reference:" in line:
+                company = line.split("Company Reference:", 1)[-1].strip()
+            elif "Document Version:" in line:
+                version = line.split("Document Version:", 1)[-1].strip()
+        # Build display_source using only ASCII-safe separators (avoid em dash encoding issues)
+        parts = [title or file_name]
+        if authority:
+            parts.append(authority)
+        if company:
+            parts.append(company)
+        if version:
+            parts.append(version)
+        display = " | ".join(parts)
+        return {
+            "source":         file_name,
+            "display_source": display,
+            "doc_title":      title or file_name,
+            "authority":      authority,
+            "company":        company,
+            "version":        version,
+        }
+
     def load_text_file(self, file_path: Path) -> List[Document]:
         """Load a plain text file as a LangChain Document."""
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
-            
+
+            header_meta = self._parse_doc_header(content, file_path.name)
             doc = Document(
                 page_content=content,
                 metadata={
-                    "source": file_path.name,
+                    **header_meta,
                     "file_path": str(file_path),
                     "file_type": file_path.suffix,
                 },
@@ -64,10 +102,11 @@ class DocumentIngestionPipeline:
             for i, page in enumerate(reader.pages):
                 text = page.extract_text()
                 if text and text.strip():
+                    header_meta = self._parse_doc_header(text, file_path.name) if i == 0 else {"source": file_path.name}
                     doc = Document(
                         page_content=text,
                         metadata={
-                            "source": file_path.name,
+                            **header_meta,
                             "file_path": str(file_path),
                             "file_type": ".pdf",
                             "page_number": i + 1,

@@ -243,5 +243,529 @@
         "relevance_score": 0.287
       }
     ]
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-04-27T10:10:11.969380",
+    "query": "How does no-claim bonus transfer work when buying a new car?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to no-claim bonus, which is a term related to motor insurance policies, particularly in the context of transferring benefits when purchasing a new car."
+    },
+    "response_preview": "The No-Claim Bonus (NCB) transfer works as follows when buying a new car:\n\n1. **Ownership of NCB**: The NCB belongs to the insured person, not the vehicle. This means that if you have accumulated NCB ...",
+    "sources_count": 1,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.406
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-04-27T10:20:07.394262",
+    "query": "A car bought for \u20b98 lakhs is now 3 years old. What is the IRDAI IDV?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query pertains to the Insured Declared Value (IDV) of a car, which falls under motor insurance as it relates to vehicle valuation and coverage."
+    },
+    "response_preview": "The Insured Declared Value (IDV) for your car, which was bought for \u20b98 lakhs and is now 3 years old, is \u20b95,60,000. \n\n**Calculation:**\n- IDV = Manufacturer's listed selling price - Depreciation\n- Depre...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.484
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.465
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-04-27T10:21:17.469184",
+    "query": "insurance?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 0.3,
+      "reasoning": "The query is too vague but suggests a general inquiry about insurance, which typically falls under individual protection categories like life or health insurance."
+    },
+    "response_preview": "I don't have information on this topic in the Life Insurance knowledge base. Please upload relevant documents or consult the appropriate regulatory authority. \n\n---\n*\u26a0\ufe0f This response is for informatio...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.215
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.207
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.198
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.173
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.173
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-04-27T10:36:22.911596",
+    "query": "A car bought for \u20b98 lakhs is now 3 years old. What is the IRDAI IDV?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.85,
+      "reasoning": "The query pertains to the Insured Declared Value (IDV) of a car, which falls under motor insurance as it relates to vehicle valuation and coverage."
+    },
+    "response_preview": "The Insured Declared Value (IDV) for a car bought for \u20b98 lakhs that is now 3 years old is \u20b95,60,000. \n\n**Calculation:**\n- Manufacturer's listed selling price: \u20b98,00,000\n- Depreciation for a vehicle ag...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.484
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.465
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-04-27T10:42:21.942777",
+    "query": "A car bought for \u20b98 lakhs is now 3 years old. What is the IRDAI IDV?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.85,
+      "reasoning": "The query pertains to the Insured Declared Value (IDV) of a car, which falls under motor insurance as it relates to vehicle valuation and coverage."
+    },
+    "response_preview": "To calculate the Insured Declared Value (IDV) for a car, you typically start with the manufacturer's listed price and then apply depreciation based on the age of the vehicle. According to the guidelin...",
+    "sources_count": 0,
+    "sources": []
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-04-27T10:46:30.321443",
+    "query": "What is the free-look period for a ULIP policy?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically mentions 'ULIP', which is a term related to life insurance policies. Therefore, it is routed to the life insurance department."
+    },
+    "response_preview": "I don't have information on this topic in the Life Insurance knowledge base. Please upload relevant documents or consult the appropriate regulatory authority.\n\n---\n*\u26a0\ufe0f This response is for information...",
+    "sources_count": 0,
+    "sources": []
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-04-27T10:47:27.632071",
+    "query": "What documents do I need to submit when filing a motor insurance claim?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to the process of filing a claim under motor insurance, which directly relates to the motor insurance department's responsibilities."
+    },
+    "response_preview": "I currently do not have access to specific documents detailing the exact requirements for filing a motor insurance claim. However, generally, the following documents are typically required when filing...",
+    "sources_count": 0,
+    "sources": []
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-04-27T10:57:31.592752",
+    "query": "I have 5 consecutive claim-free years. What is my NCB percentage per IRDAI?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically mentions 'NCB' (No Claim Bonus), which is a term related to motor insurance policies. It pertains to the benefits received for consecutive claim-free years in motor insurance."
+    },
+    "response_preview": "The No Claim Bonus (NCB) percentage for motor insurance in India is typically structured as follows:\n\n- 1st year: 20%\n- 2nd year: 25%\n- 3rd year: 35%\n- 4th year: 45%\n- 5th year: 50%\n\nSince you have 5 ...",
+    "sources_count": 1,
+    "sources": [
+      {
+        "document": "Unknown",
+        "relevance_score": 0.639
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-04-27T10:58:38.903774",
+    "query": "What is the free-look period for a ULIP policy?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically mentions 'ULIP', which is a term related to life insurance policies. Therefore, it is routed to the life insurance department."
+    },
+    "response_preview": "I don't have information on this topic in the Life Insurance knowledge base. Please upload relevant documents or consult the appropriate regulatory authority.\n\n---\n*\u26a0\ufe0f This response is for information...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "Unknown",
+        "relevance_score": 0.716
+      },
+      {
+        "document": "Unknown",
+        "relevance_score": 0.634
+      },
+      {
+        "document": "Unknown",
+        "relevance_score": 0.526
+      },
+      {
+        "document": "Unknown",
+        "relevance_score": 0.44
+      },
+      {
+        "document": "Unknown",
+        "relevance_score": 0.419
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-04-27T11:10:26.648478",
+    "query": "A car bought for \u20b98 lakhs is now 3 years old. What is the IRDAI IDV?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 0.85,
+      "reasoning": "The query pertains to the Insured Declared Value (IDV) of a car, which falls under motor insurance as it relates to vehicle valuation and coverage."
+    },
+    "response_preview": "To calculate the Insured Declared Value (IDV) for a car, you typically start with the manufacturer's listed price and then apply depreciation based on the age of the vehicle. According to the IRDAI gu...",
+    "sources_count": 1,
+    "sources": [
+      {
+        "document": "Unknown",
+        "relevance_score": 0.635
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-04-27T11:27:37.565004",
+    "query": "Estimate the own-damage premium for a \u20b96 lakh bike, 2 years old, with 20% NCB.",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to motor insurance, focusing on calculating the own-damage premium for a motorcycle, which falls under the motor insurance category."
+    },
+    "response_preview": "The estimated own-damage premium for your \u20b96 lakh bike, which is 2 years old and has a 20% No-Claim Bonus (NCB), is as follows:\n\n1. **IDV Calculation**:\n   - The Insured Declared Value (IDV) after app...",
+    "sources_count": 1,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.506
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-04-27T11:28:11.698888",
+    "query": "What is the free-look period for a ULIP policy?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically mentions 'ULIP', which is a term related to life insurance policies. Therefore, it is routed to the life insurance department."
+    },
+    "response_preview": "### Free-Look Period for ULIP Policy\n\nAccording to the IRDAI Circular No. IRDA/Life/CIR/GDL/077/02/2024, the free-look period for a Unit Linked Insurance Plan (ULIP) is as follows:\n\n- **Standard Free-...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.714
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.634
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.525
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.439
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.419
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-04-27T11:31:38.615297",
+    "query": "Does home insurance cover damage from waterlogging?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "home_property_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to home insurance and its coverage regarding water damage, which falls under home and property insurance."
+    },
+    "response_preview": "### Coverage for Waterlogging in Home Insurance\n\nAccording to the guidelines, waterlogging due to storm, tempest, flood, and inundation is covered under the Standard Fire and Special Perils (SFSP) pol...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.508
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.484
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.469
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.441
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.42
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-04-27T11:39:49.713222",
+    "query": "Does home insurance cover damage from waterlogging?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "home_property_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to home insurance and its coverage regarding water damage, which falls under home and property insurance."
+    },
+    "response_preview": "### Coverage for Waterlogging in Home Insurance\n\nAccording to the guidelines, waterlogging due to storm, tempest, flood, and inundation is covered under the Standard Fire and Special Perils (SFSP) pol...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.508
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.484
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.469
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.441
+      },
+      {
+        "document": "home_property_insurance_guidelines.txt",
+        "relevance_score": 0.42
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-04-27T11:40:41.204885",
+    "query": "A car bought for \u20b98 lakhs is now 3 years old. What is the IRDAI IDV?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query pertains to the Insured Declared Value (IDV) of a car, which falls under motor insurance as it relates to vehicle valuation and insurance coverage."
+    },
+    "response_preview": "The Insured Declared Value (IDV) for a car bought for \u20b98 lakhs that is now 3 years old is \u20b95,60,000. \n\n**Calculation:**\n- IDV = Manufacturer's listed selling price - Depreciation\n- Depreciation for a ...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.635
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.622
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-04-27T11:41:54.908749",
+    "query": "What is compulsory personal accident cover for owner-driver under IRDAI motor guidelines?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to motor insurance and the guidelines set by IRDAI regarding personal accident cover for owner-drivers, which falls under motor insurance policies."
+    },
+    "response_preview": "The compulsory personal accident cover for the owner-driver under the IRDAI motor insurance guidelines is mandated to provide coverage of \u20b915,00,000. This cover is applicable in the event of death or ...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.714
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.647
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-04-27T11:42:48.539978",
+    "query": "How does the cashless claim settlement process work for motor insurance?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically asks about the cashless claim settlement process, which is a key aspect of motor insurance policies."
+    },
+    "response_preview": "The cashless claim settlement process for motor insurance involves the following steps:\n\n1. **Inform the Insurer**: The policyholder must inform the insurer about the accident or damage immediately, i...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.644
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.545
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-04-27T11:55:53.508823",
+    "query": "What is compulsory personal accident cover for owner-driver under IRDAI motor guidelines?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to motor insurance guidelines related to personal accident cover for owner-drivers, which falls under the motor insurance category."
+    },
+    "response_preview": "As per the IRDAI circular dated 20 August 2019, the owner-driver personal accident cover is mandatory and provides coverage of INR 15,00,000. This cover is specifically for the owner-driver in the eve...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.714
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.647
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-04-27T11:57:18.810741",
+    "query": "insurance?",
+    "routing": {
+      "group": "individual_protection",
+      "department": "life_insurance",
+      "confidence": 0.5,
+      "reasoning": "The query is too vague to determine a specific department, but it relates to insurance, which typically falls under individual protection or asset protection. Life insurance is a common topic within individual protection, making it a reasonable primary choice."
+    },
+    "response_preview": "This query appears to be outside the scope of Life Insurance. Please direct it to the appropriate department.\n\n---\n*\u26a0\ufe0f This response is for informational purposes only and does not constitute regulato...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.445
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.439
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.433
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.415
+      },
+      {
+        "document": "life_insurance_guidelines.txt",
+        "relevance_score": 0.415
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-04-27T11:58:05.908042",
+    "query": "Is third-party motor insurance mandatory under the Motor Vehicles Act?",
+    "routing": {
+      "group": "asset_protection",
+      "department": "motor_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically pertains to motor insurance and the legal requirements under the Motor Vehicles Act, which falls under the motor insurance category."
+    },
+    "response_preview": "Yes, third-party motor insurance is mandatory under the Motor Vehicles Act, 1988. According to Section 146 of the Act:\n\n- It is required for all motor vehicles in India.\n- This insurance covers liabil...",
+    "sources_count": 2,
+    "sources": [
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.728
+      },
+      {
+        "document": "motor_insurance_guidelines.txt",
+        "relevance_score": 0.497
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-04-27T11:59:23.023967",
+    "query": "How does keyman insurance work and who can be covered under it?",
+    "routing": {
+      "group": "specialty_insurance",
+      "department": "business_insurance",
+      "confidence": 1.0,
+      "reasoning": "The query specifically asks about keyman insurance, which is a type of business insurance that covers key employees whose loss could significantly impact the business. This falls under the business insurance department."
+    },
+    "response_preview": "### Keyman Insurance Overview\n\n**Definition:**\nKeyman insurance is a type of life insurance taken out by a company on the life of a key employee or executive whose death or disability would cause sign...",
+    "sources_count": 5,
+    "sources": [
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": 0.686
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": 0.565
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": 0.473
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": 0.408
+      },
+      {
+        "document": "business_insurance_guidelines.txt",
+        "relevance_score": 0.406
+      }
+    ]
   }
 ]

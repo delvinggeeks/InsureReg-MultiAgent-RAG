@@ -4,7 +4,7 @@ Manages Motor Insurance and Home & Property Insurance department agents.
 """
 
 from agents.group_supervisors.base_supervisor import GroupSupervisor
-from agents.department_agents.motor_insurance_agent import motor_insurance_agent
+from agents.department_agents.motor_insurance import motor_insurance_agent
 from agents.department_agents.home_property_agent import home_property_agent
 
 
