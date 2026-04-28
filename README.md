@@ -425,26 +425,6 @@ Total OD  = After NCB × 1.18        (18% GST)
 
 ---
 
-### Running the Tests
-
-```powershell
-# Unit tests (78 tests — all 5 concepts)
-.venv\Scripts\python.exe -m pytest tests/test_all_concepts.py -v
-
-# System smoke test — no LLM required (12 checks)
-.venv\Scripts\python.exe tests/smoke_test.py
-
-# Doc ingestion + 5 live queries with RAG
-.venv\Scripts\python.exe tests/ingest_and_test.py
-
-# Edge-case and path coverage (33 cases)
-.venv\Scripts\python.exe tests/edge_case_test.py
-```
-
-Edge-case tests cover: all 6 graph execution paths, all IRDAI IDV/NCB boundary values, prompt injection, out-of-domain queries, and 3-turn memory continuity.
-
----
-
 ## ⚠️ Disclaimer
 
 This is a **decision-support tool** and does not replace regulatory or compliance judgment.
@@ -764,13 +744,6 @@ data/motor_insurance/
 └── finetune/
     ├── motor_finetune.jsonl    ← 20 IRDAI Q&A triplets
     └── finetune_submission.py  ← CLI fine-tuning workflow
-
-tests/
-├── test_all_concepts.py   ← 78/78 unit tests
-├── smoke_test.py          ← 12/12 system checks
-├── live_e2e_test.py       ← 5 live queries (no RAG)
-├── ingest_and_test.py     ← doc ingestion + 5 live queries with RAG
-└── edge_case_test.py      ← 33/33 edge cases covering all 6 graph paths
 ```
 
 ---
